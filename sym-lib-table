@@ -1,0 +1,6 @@
+(sym_lib_table
+  (lib (name basico-rescue)(type Legacy)(uri ${KIPRJMOD}/basico-rescue.lib)(options "")(descr ""))
+  (lib (name MAX31855)(type Legacy)(uri ${KIPRJMOD}/MAX31855.lib)(options "")(descr ""))
+  (lib (name Amplifier_Thermocouple)(type Legacy)(uri ${KIPRJMOD}/Amplifier_Thermocouple.lib)(options "")(descr ""))
+  (lib (name Oxigen_Sensor)(type Legacy)(uri ${KIPRJMOD}/Oxigen_Sensor.lib)(options "")(descr ""))
+)

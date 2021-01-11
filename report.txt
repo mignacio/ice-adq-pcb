@@ -1,0 +1,27 @@
+Info: Backing up file "/home/freesbee/Ponchos/modelos/Basico/sym-lib-table" to file "/home/freesbee/Ponchos/modelos/Basico/rescue-backup/sym-lib-table-2020-12-31-14-45-42".
+Info: Backing up file "/home/freesbee/Ponchos/modelos/Basico/basico.sch" to file "/home/freesbee/Ponchos/modelos/Basico/rescue-backup/basico-2020-12-31-14-45-42.sch".
+Info: Backing up file "/home/freesbee/Ponchos/modelos/Basico/basico.pro" to file "/home/freesbee/Ponchos/modelos/Basico/rescue-backup/basico-2020-12-31-14-45-42.pro".
+Info: Backing up file "/home/freesbee/Ponchos/modelos/Basico/basico-cache.lib" to file "/home/freesbee/Ponchos/modelos/Basico/rescue-backup/basico-cache-2020-12-31-14-45-42.lib".
+Info: Backing up file "/home/freesbee/Ponchos/modelos/Basico/basico-rescue.lib" to file "/home/freesbee/Ponchos/modelos/Basico/rescue-backup/basico-rescue-2020-12-31-14-45-42.lib".
+Info: Backing up file "/home/freesbee/Ponchos/modelos/Basico/basico-rescue.dcm" to file "/home/freesbee/Ponchos/modelos/Basico/rescue-backup/basico-rescue-2020-12-31-14-45-42.dcm".
+Info: Adding library "basico", file "${KIPRJMOD}/lib/basico.lib" to project symbol library table.
+Symbol "OSHWA" mapped to symbol library "basico".
+Symbol "Logo_Poncho" mapped to symbol library "basico".
+Symbol "+3.3V" mapped to symbol library "basico".
+Symbol "+5V" mapped to symbol library "basico".
+Symbol "PWR_FLAG" mapped to symbol library "basico".
+Symbol "+5VP" mapped to symbol library "basico".
+Symbol "Conn_Poncho2P_2x_20x2" mapped to symbol library "basico".
+Symbol "Conn_Poncho2P_2x_20x2" mapped to symbol library "basico".
+Symbol "GND" mapped to symbol library "basico".
+Symbol "+3.3VP" mapped to symbol library "basico".
+Symbol "+3.3VP" mapped to symbol library "basico".
+Symbol "+3.3V" mapped to symbol library "basico".
+Symbol "+5VP" mapped to symbol library "basico".
+Symbol "+5V" mapped to symbol library "basico".
+Symbol "GNDD" mapped to symbol library "basico".
+Symbol "GNDD" mapped to symbol library "basico".
+Symbol "GND" mapped to symbol library "basico".
+Symbol "GNDA" mapped to symbol library "basico".
+Symbol "GNDA" mapped to symbol library "basico".
+Info: Symbol library table mapping complete!
