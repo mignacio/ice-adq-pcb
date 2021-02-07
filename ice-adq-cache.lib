@@ -1,34 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# Sensor_Temperature_MAX31855KASA
+# basico-rescue:+3.3V
 #
-DEF Sensor_Temperature_MAX31855KASA U 0 40 Y Y 1 F N
-F0 "U" -300 350 50 H V L CNN
-F1 "Sensor_Temperature_MAX31855KASA" 50 350 50 H V L CNN
-F2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" 1000 -350 50 H I C CIN
-F3 "" 0 0 50 H I C CNN
-ALIAS MAX31855JASA MAX31855NASA MAX31855SASA MAX31855TASA MAX31855EASA MAX31855RASA
-$FPLIST
- SOIC*3.9x4.9mm*P1.27mm*
-$ENDFPLIST
-DRAW
-S -300 300 300 -300 0 1 10 f
-X GND 1 0 -400 100 U 50 50 1 1 W
-X T- 2 -400 -100 100 R 50 50 1 1 P
-X T+ 3 -400 100 100 R 50 50 1 1 P
-X VCC 4 0 400 100 D 50 50 1 1 W
-X SCK 5 400 200 100 L 50 50 1 1 I
-X ~CS~ 6 400 -100 100 L 50 50 1 1 I
-X SO 7 400 100 100 L 50 50 1 1 T
-ENDDRAW
-ENDDEF
-#
-# basico-rescue_+3.3V
-#
-DEF basico-rescue_+3.3V #PWR 0 0 Y Y 1 F P
+DEF basico-rescue:+3.3V #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "basico-rescue_+3.3V" 0 140 50 H V C CNN
+F1 "basico-rescue:+3.3V" 0 140 50 H V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 DRAW
@@ -39,11 +16,11 @@ X +3V3 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# basico-rescue_+3.3VP
+# basico-rescue:+3.3VP
 #
-DEF basico-rescue_+3.3VP #PWR 0 0 Y Y 1 F P
+DEF basico-rescue:+3.3VP #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 150 -50 50 H I C CNN
-F1 "basico-rescue_+3.3VP" 0 100 50 H V C CNN
+F1 "basico-rescue:+3.3VP" 0 100 50 H V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 DRAW
@@ -53,11 +30,11 @@ X +3.3VP 1 0 0 0 U 50 50 0 0 W N
 ENDDRAW
 ENDDEF
 #
-# basico-rescue_+5V
+# basico-rescue:+5V
 #
-DEF basico-rescue_+5V #PWR 0 0 Y Y 1 F P
+DEF basico-rescue:+5V #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "basico-rescue_+5V" 0 140 50 H V C CNN
+F1 "basico-rescue:+5V" 0 140 50 H V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 DRAW
@@ -68,11 +45,11 @@ X +5V 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# basico-rescue_+5VP
+# basico-rescue:+5VP
 #
-DEF basico-rescue_+5VP #PWR 0 0 Y Y 1 F P
+DEF basico-rescue:+5VP #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "basico-rescue_+5VP" 0 140 50 H V C CNN
+F1 "basico-rescue:+5VP" 0 140 50 H V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 DRAW
@@ -83,11 +60,11 @@ X +5VP 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# basico-rescue_Conn_Poncho2P_2x_20x2
+# basico-rescue:Conn_Poncho2P_2x_20x2
 #
-DEF basico-rescue_Conn_Poncho2P_2x_20x2 XA 0 40 Y Y 2 L N
+DEF basico-rescue:Conn_Poncho2P_2x_20x2 XA 0 40 Y Y 2 L N
 F0 "XA" 300 400 60 H V C CNN
-F1 "basico-rescue_Conn_Poncho2P_2x_20x2" 350 -1700 60 H V C CNN
+F1 "basico-rescue:Conn_Poncho2P_2x_20x2" 350 -1700 60 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -175,11 +152,11 @@ X GPIO8 80 950 -1600 200 L 50 50 2 1 P
 ENDDRAW
 ENDDEF
 #
-# basico-rescue_GND
+# basico-rescue:GND
 #
-DEF basico-rescue_GND #PWR 0 0 Y Y 1 F P
+DEF basico-rescue:GND #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "basico-rescue_GND" 0 -150 50 H V C CNN
+F1 "basico-rescue:GND" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 DRAW
@@ -188,11 +165,11 @@ X GND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# basico-rescue_GNDA
+# basico-rescue:GNDA
 #
-DEF basico-rescue_GNDA #PWR 0 0 Y Y 1 F P
+DEF basico-rescue:GNDA #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "basico-rescue_GNDA" 0 -150 50 H V C CNN
+F1 "basico-rescue:GNDA" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 DRAW
@@ -201,11 +178,11 @@ X GNDA 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# basico-rescue_GNDD
+# basico-rescue:GNDD
 #
-DEF basico-rescue_GNDD #PWR 0 0 Y Y 1 F P
+DEF basico-rescue:GNDD #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "basico-rescue_GNDD" 0 -150 50 H V C CNN
+F1 "basico-rescue:GNDD" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 DRAW
@@ -214,11 +191,11 @@ X GNDD 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# basico-rescue_Logo_Poncho
+# basico-rescue:Logo_Poncho
 #
-DEF basico-rescue_Logo_Poncho #G 0 0 N N 1 F N
+DEF ~basico-rescue:Logo_Poncho #G 0 0 N N 1 F N
 F0 "#G" -50 -400 60 H I C CNN
-F1 "basico-rescue_Logo_Poncho" 200 -400 60 H I C CNN
+F1 "basico-rescue:Logo_Poncho" 200 -400 60 H I C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -239,11 +216,11 @@ X ~ ~ 0 250 20 U 50 50 1 1 N N
 ENDDRAW
 ENDDEF
 #
-# basico-rescue_OSHWA
+# basico-rescue:OSHWA
 #
-DEF basico-rescue_OSHWA #G 0 40 Y Y 1 F N
+DEF ~basico-rescue:OSHWA #G 0 40 Y Y 1 F N
 F0 "#G" -30 400 60 H I C CNN
-F1 "basico-rescue_OSHWA" 0 303 60 H I C CNN
+F1 "basico-rescue:OSHWA" 0 303 60 H I C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -254,11 +231,11 @@ P 289 0 0 1 228 105 218 107 216 108 216 74 216 72 216 63 216 58 213 54 208 52 19
 ENDDRAW
 ENDDEF
 #
-# basico-rescue_PWR_FLAG
+# basico-rescue:PWR_FLAG
 #
-DEF basico-rescue_PWR_FLAG #FLG 0 0 N N 1 F P
+DEF basico-rescue:PWR_FLAG #FLG 0 0 N N 1 F P
 F0 "#FLG" 0 95 50 H I C CNN
-F1 "basico-rescue_PWR_FLAG" 0 180 50 H V C CNN
+F1 "basico-rescue:PWR_FLAG" 0 180 50 H V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 DRAW

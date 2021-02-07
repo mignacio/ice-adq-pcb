@@ -1,9 +1,10 @@
 EESchema Schematic File Version 4
-EELAYER 30 0
+LIBS:ice-adq-cache
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 1
+Sheet 1 5
 Title "Poncho Básico (Editar y colocar el nombre final)"
 Date "2016-08-07"
 Rev "1.0"
@@ -459,37 +460,34 @@ Wire Wire Line
 	3250 1450 3250 1550
 Wire Wire Line
 	3250 1450 3700 1450
-$Comp
-L Sensor_Temperature:MAX31855KASA U?
-U 1 1 5FF5C03E
-P 7500 3850
-F 0 "U?" H 7500 4431 50  0000 C CNN
-F 1 "MAX31855KASA" H 7500 4340 50  0000 C CNN
-F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 8500 3500 50  0001 C CIN
-F 3 "http://datasheets.maximintegrated.com/en/ds/MAX31855.pdf" H 7500 3850 50  0001 C CNN
-	1    7500 3850
-	1    0    0    -1  
-$EndComp
-$Comp
-L Sensor_Temperature:MAX31855KASA U?
-U 1 1 5FF5CC5C
-P 8850 3850
-F 0 "U?" H 8850 4431 50  0000 C CNN
-F 1 "MAX31855KASA" H 8850 4340 50  0000 C CNN
-F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 9850 3500 50  0001 C CIN
-F 3 "http://datasheets.maximintegrated.com/en/ds/MAX31855.pdf" H 8850 3850 50  0001 C CNN
-	1    8850 3850
-	1    0    0    -1  
-$EndComp
-$Comp
-L Sensor_Temperature:MAX31855KASA U?
-U 1 1 5FF5D74D
-P 6250 3850
-F 0 "U?" H 6250 4431 50  0000 C CNN
-F 1 "MAX31855KASA" H 6250 4340 50  0000 C CNN
-F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 7250 3500 50  0001 C CIN
-F 3 "http://datasheets.maximintegrated.com/en/ds/MAX31855.pdf" H 6250 3850 50  0001 C CNN
-	1    6250 3850
-	1    0    0    -1  
-$EndComp
+$Sheet
+S 4700 1750 1100 900 
+U 5FFF8913
+F0 "termocuplas" 50
+F1 "termocuplas.sch" 50
+$EndSheet
+$Sheet
+S 4750 3000 1000 900 
+U 5FFFA450
+F0 "oxigeno" 50
+F1 "oxigeno.sch" 50
+$EndSheet
+$Sheet
+S 6300 2950 1050 1050
+U 5FFFA455
+F0 "rpm" 50
+F1 "rpm.sch" 50
+$EndSheet
+$Sheet
+S 4700 4350 950  900 
+U 5FFFA45A
+F0 "presion" 50
+F1 "presion.sch" 50
+$EndSheet
+$Sheet
+S 6350 4400 1000 900 
+U 5FFFA45F
+F0 "comunicaciones" 50
+F1 "comunicaciones.sch" 50
+$EndSheet
 $EndSCHEMATC

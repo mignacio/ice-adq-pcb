@@ -3,4 +3,5 @@
   (lib (name MAX31855)(type Legacy)(uri ${KIPRJMOD}/MAX31855.lib)(options "")(descr ""))
   (lib (name Amplifier_Thermocouple)(type Legacy)(uri ${KIPRJMOD}/Amplifier_Thermocouple.lib)(options "")(descr ""))
   (lib (name Oxigen_Sensor)(type Legacy)(uri ${KIPRJMOD}/Oxigen_Sensor.lib)(options "")(descr ""))
+  (lib (name ice-adq-rescue)(type Legacy)(uri ${KIPRJMOD}/ice-adq-rescue.lib)(options "")(descr ""))
 )
