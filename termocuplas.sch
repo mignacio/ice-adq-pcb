@@ -216,4 +216,49 @@ Wire Wire Line
 	4500 3800 4750 3800
 Wire Wire Line
 	4500 5400 4750 5400
+$Comp
+L Connector:Screw_Terminal_01x02 J?
+U 1 1 601FF299
+P 3000 3850
+F 0 "J?" H 2920 3525 50  0000 C CNN
+F 1 "Screw_Terminal_01x02" H 2920 3616 50  0000 C CNN
+F 2 "" H 3000 3850 50  0001 C CNN
+F 3 "~" H 3000 3850 50  0001 C CNN
+	1    3000 3850
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x02 J?
+U 1 1 601FF30D
+P 3050 4650
+F 0 "J?" H 2970 4325 50  0000 C CNN
+F 1 "Screw_Terminal_01x02" H 2970 4416 50  0000 C CNN
+F 2 "" H 3050 4650 50  0001 C CNN
+F 3 "~" H 3050 4650 50  0001 C CNN
+	1    3050 4650
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x02 J?
+U 1 1 601FF365
+P 3100 5450
+F 0 "J?" H 3020 5125 50  0000 C CNN
+F 1 "Screw_Terminal_01x02" H 3020 5216 50  0000 C CNN
+F 2 "" H 3100 5450 50  0001 C CNN
+F 3 "~" H 3100 5450 50  0001 C CNN
+	1    3100 5450
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3200 3750 3800 3750
+Wire Wire Line
+	3200 3850 3800 3850
+Wire Wire Line
+	3250 4550 3800 4550
+Wire Wire Line
+	3250 4650 3800 4650
+Wire Wire Line
+	3300 5350 3800 5350
+Wire Wire Line
+	3300 5450 3800 5450
 $EndSCHEMATC
