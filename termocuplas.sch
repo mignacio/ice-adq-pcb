@@ -1,16 +1,16 @@
 EESchema Schematic File Version 4
-LIBS:termocuplas-cache
+LIBS:ice-adq-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 8268 11693 portrait
 encoding utf-8
-Sheet 1 1
+Sheet 2 6
 Title "Amplificadores de termocuplas"
 Date "2021-02-07"
 Rev "R0"
-Comp ""
-Comment1 ""
-Comment2 ""
+Comp "Autor: Ignacio Moya"
+Comment1 "Autor: Ignacio Moya"
+Comment2 "Especialización en Sistemas Embebidos 2021 - FIUBA"
 Comment3 ""
 Comment4 ""
 $EndDescr

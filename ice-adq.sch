@@ -4,13 +4,13 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 5
+Sheet 1 6
 Title "Poncho Básico (Editar y colocar el nombre final)"
 Date "2016-08-07"
 Rev "1.0"
-Comp "Proyecto CIAA - COMPUTADORA INDUSTRIAL ABIERTA ARGENTINA"
-Comment1 "https://github.com/ciaa/Ponchos/tree/master/Basico/doc"
-Comment2 "Autores y Licencia del modelo (Diego Brengi - UNLaM)"
+Comp "Autor: Ignacio Moya"
+Comment1 "Autor: Ignacio Moya"
+Comment2 "Especialización en Sistemas Embebidos 2021 - FIUBA"
 Comment3 "Autor del poncho (COMPLETAR NOMBRE Y APELLIDO). Ver directorio \"doc\""
 Comment4 ""
 $EndDescr
@@ -461,33 +461,42 @@ Wire Wire Line
 Wire Wire Line
 	3250 1450 3700 1450
 $Sheet
-S 4700 1750 1100 900 
+S 4700 1750 850  600 
 U 5FFF8913
 F0 "termocuplas" 50
 F1 "termocuplas.sch" 50
+F2 "SO" O L 4700 1850 50 
+F3 "SCK" I L 4700 1950 50 
+F4 "ADM_CS" I L 4700 2050 50 
+F5 "ESC_CS" I L 4700 2150 50 
+F6 "ACT_CS" I L 4700 2250 50 
 $EndSheet
 $Sheet
-S 4750 3000 1000 900 
+S 4700 5450 1000 900 
 U 5FFFA450
 F0 "oxigeno" 50
 F1 "oxigeno.sch" 50
 $EndSheet
 $Sheet
-S 6300 2950 1050 1050
+S 4700 3200 1000 400 
 U 5FFFA455
 F0 "rpm" 50
 F1 "rpm.sch" 50
+F2 "RPM_PULSE" I L 4700 3400 50 
 $EndSheet
 $Sheet
-S 4700 4350 950  900 
+S 4700 4400 950  900 
 U 5FFFA45A
 F0 "presion" 50
 F1 "presion.sch" 50
 $EndSheet
 $Sheet
-S 6350 4400 1000 900 
+S 4700 2550 950  500 
 U 5FFFA45F
 F0 "comunicaciones" 50
 F1 "comunicaciones.sch" 50
+F2 "BT_TX" I L 4700 2700 50 
+F3 "BT_RX" I L 4700 2800 50 
+F4 "BT_STATE" I L 4700 2900 50 
 $EndSheet
 $EndSCHEMATC

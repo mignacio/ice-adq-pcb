@@ -4,4 +4,6 @@
   (lib (name Amplifier_Thermocouple)(type Legacy)(uri ${KIPRJMOD}/Amplifier_Thermocouple.lib)(options "")(descr ""))
   (lib (name Oxigen_Sensor)(type Legacy)(uri ${KIPRJMOD}/Oxigen_Sensor.lib)(options "")(descr ""))
   (lib (name ice-adq-rescue)(type Legacy)(uri ${KIPRJMOD}/ice-adq-rescue.lib)(options "")(descr ""))
+  (lib (name hm10)(type Legacy)(uri C:/Users/Nacho/Documents/kicad/ice-adq-pcb/hm10-kicad-master/hm10.pretty/hm10.lib)(options "")(descr ""))
+  (lib (name MAX9924-27)(type Legacy)(uri C:/Users/Nacho/Documents/kicad/ice-adq-pcb/MAX9924-27.lib)(options "")(descr ""))
 )

@@ -2,16 +2,184 @@ EESchema Schematic File Version 4
 LIBS:ice-adq-cache
 EELAYER 26 0
 EELAYER END
-$Descr A4 11693 8268
+$Descr A4 8268 11693 portrait
 encoding utf-8
-Sheet 1 5
-Title ""
-Date ""
+Sheet 4 6
+Title "Interfaz sensor RPM"
+Date "2021-12-11"
 Rev ""
 Comp ""
 Comment1 ""
-Comment2 ""
-Comment3 ""
+Comment2 "Especialización en Sistemas Embebidos 2021 - FIUBA"
+Comment3 "Autor: Ignacio Moya"
 Comment4 ""
 $EndDescr
+$Comp
+L MAX9924-27:MAX9924 U?
+U 1 1 61B5B6E4
+P 4050 5550
+F 0 "U?" H 4050 6215 50  0000 C CNN
+F 1 "MAX9924" H 4050 6124 50  0000 C CNN
+F 2 "" H 4050 5550 50  0001 C CNN
+F 3 "" H 4050 5550 50  0001 C CNN
+	1    4050 5550
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 61B5B7AB
+P 5150 5050
+F 0 "R?" V 5050 5050 50  0000 C CNN
+F 1 "10k" V 5250 5050 50  0000 C CNN
+F 2 "" V 5190 5040 50  0001 C CNN
+F 3 "~" H 5150 5050 50  0001 C CNN
+	1    5150 5050
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 61B5B80C
+P 5150 5450
+F 0 "R?" V 5050 5450 50  0000 C CNN
+F 1 "10k" V 5250 5450 50  0000 C CNN
+F 2 "" V 5190 5440 50  0001 C CNN
+F 3 "~" H 5150 5450 50  0001 C CNN
+	1    5150 5450
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 61B5B826
+P 3100 5400
+F 0 "R?" H 3168 5446 50  0000 L CNN
+F 1 "10k" H 3168 5355 50  0000 L CNN
+F 2 "" V 3140 5390 50  0001 C CNN
+F 3 "~" H 3100 5400 50  0001 C CNN
+	1    3100 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 61B5B942
+P 4750 5250
+F 0 "C?" H 4842 5296 50  0000 L CNN
+F 1 "1nF" H 4842 5205 50  0000 L CNN
+F 2 "" H 4750 5250 50  0001 C CNN
+F 3 "~" H 4750 5250 50  0001 C CNN
+	1    4750 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L basico-rescue:GND #PWR?
+U 1 1 61B5BC42
+P 3450 6250
+F 0 "#PWR?" H 3450 6000 50  0001 C CNN
+F 1 "GND" H 3455 6077 50  0000 C CNN
+F 2 "" H 3450 6250 50  0000 C CNN
+F 3 "" H 3450 6250 50  0000 C CNN
+	1    3450 6250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3550 5950 3450 5950
+$Comp
+L basico-rescue:+5V #PWR?
+U 1 1 61B5BF66
+P 3100 5050
+F 0 "#PWR?" H 3100 4900 50  0001 C CNN
+F 1 "+5V" H 3115 5223 50  0000 C CNN
+F 2 "" H 3100 5050 50  0000 C CNN
+F 3 "" H 3100 5050 50  0000 C CNN
+	1    3100 5050
+	1    0    0    -1  
+$EndComp
+Text HLabel 2850 5750 0    50   Input ~ 0
+RPM_PULSE
+Wire Wire Line
+	3450 5950 3450 6150
+Wire Wire Line
+	4650 5950 4650 6150
+Wire Wire Line
+	4650 6150 3450 6150
+Wire Wire Line
+	4550 5950 4650 5950
+Connection ~ 3450 6150
+Wire Wire Line
+	3450 6150 3450 6250
+Wire Wire Line
+	4550 5750 4650 5750
+Wire Wire Line
+	4650 5750 4650 5950
+Connection ~ 4650 5950
+Wire Wire Line
+	3550 5350 3450 5350
+Wire Wire Line
+	3450 5350 3450 5950
+Connection ~ 3450 5950
+Wire Wire Line
+	2850 5750 3100 5750
+Wire Wire Line
+	3100 5550 3100 5750
+Connection ~ 3100 5750
+Wire Wire Line
+	3100 5750 3550 5750
+Wire Wire Line
+	3550 5150 3100 5150
+Wire Wire Line
+	3100 5150 3100 5250
+Wire Wire Line
+	3100 5050 3100 5150
+Connection ~ 3100 5150
+Wire Wire Line
+	4550 5150 4750 5150
+Wire Wire Line
+	4550 5350 4750 5350
+Wire Wire Line
+	4750 5350 4750 5450
+Wire Wire Line
+	4750 5450 5000 5450
+Connection ~ 4750 5350
+Wire Wire Line
+	4750 5150 4750 5050
+Wire Wire Line
+	4750 5050 5000 5050
+Connection ~ 4750 5150
+$Comp
+L Connector:Screw_Terminal_01x03 J?
+U 1 1 61B5E81F
+P 5850 5250
+F 0 "J?" H 5930 5246 50  0000 L CNN
+F 1 "Screw_Terminal_01x03" H 5930 5201 50  0001 L CNN
+F 2 "" H 5850 5250 50  0001 C CNN
+F 3 "~" H 5850 5250 50  0001 C CNN
+	1    5850 5250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5300 5050 5400 5050
+Wire Wire Line
+	5400 5050 5400 5150
+Wire Wire Line
+	5300 5450 5400 5450
+Wire Wire Line
+	5400 5450 5400 5350
+$Comp
+L basico-rescue:GND #PWR?
+U 1 1 61B5EE58
+P 5550 5550
+F 0 "#PWR?" H 5550 5300 50  0001 C CNN
+F 1 "GND" H 5555 5377 50  0000 C CNN
+F 2 "" H 5550 5550 50  0000 C CNN
+F 3 "" H 5550 5550 50  0000 C CNN
+	1    5550 5550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5400 5350 5650 5350
+Wire Wire Line
+	5400 5150 5650 5150
+Wire Wire Line
+	5650 5250 5550 5250
+Wire Wire Line
+	5550 5250 5550 5550
 $EndSCHEMATC
