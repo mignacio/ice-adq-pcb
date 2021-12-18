@@ -9,9 +9,9 @@ Title "Poncho Básico (Editar y colocar el nombre final)"
 Date "2016-08-07"
 Rev "1.0"
 Comp "Autor: Ignacio Moya"
-Comment1 "Autor: Ignacio Moya"
-Comment2 "Especialización en Sistemas Embebidos 2021 - FIUBA"
-Comment3 "Autor del poncho (COMPLETAR NOMBRE Y APELLIDO). Ver directorio \"doc\""
+Comment1 "Especialización en Sistemas Embebidos 2021 - FIUBA"
+Comment2 ""
+Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
@@ -461,7 +461,7 @@ Wire Wire Line
 Wire Wire Line
 	3250 1450 3700 1450
 $Sheet
-S 4700 1750 850  600 
+S 4700 1750 950  600 
 U 5FFF8913
 F0 "termocuplas" 50
 F1 "termocuplas.sch" 50
@@ -478,17 +478,18 @@ F0 "oxigeno" 50
 F1 "oxigeno.sch" 50
 $EndSheet
 $Sheet
-S 4700 3200 1000 400 
+S 4700 3200 950  400 
 U 5FFFA455
 F0 "rpm" 50
 F1 "rpm.sch" 50
 F2 "RPM_PULSE" I L 4700 3400 50 
 $EndSheet
 $Sheet
-S 4700 4400 950  900 
+S 4700 3800 950  300 
 U 5FFFA45A
 F0 "presion" 50
 F1 "presion.sch" 50
+F2 "PRES_OUT" I L 4700 3950 50 
 $EndSheet
 $Sheet
 S 4700 2550 950  500 

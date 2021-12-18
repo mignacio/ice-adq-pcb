@@ -8,10 +8,10 @@ Sheet 4 6
 Title "Interfaz sensor RPM"
 Date "2021-12-11"
 Rev ""
-Comp ""
-Comment1 ""
-Comment2 "Especialización en Sistemas Embebidos 2021 - FIUBA"
-Comment3 "Autor: Ignacio Moya"
+Comp "Autor: Ignacio Moya"
+Comment1 "Especialización en Sistemas Embebidos 2021 - FIUBA"
+Comment2 ""
+Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
@@ -182,4 +182,16 @@ Wire Wire Line
 	5650 5250 5550 5250
 Wire Wire Line
 	5550 5250 5550 5550
+Wire Notes Line
+	2300 4600 6100 4600
+Wire Notes Line
+	6100 4600 6100 6550
+Wire Notes Line
+	6100 6550 2300 6550
+Wire Notes Line
+	2300 6550 2300 4600
+Text Notes 2300 4550 0    50   ~ 0
+Interfaz sensor inductivo con EDU-CIAA
+Text Notes 2350 7150 0    50   ~ 0
+-  El integrado MAX9924 permite ser operado en hasta cuatro modos de\noperación diferentes. En este esquemático, el módo de operación sele-\nccionado es el A2. Esto quiere decir que tiene activadas la detección\npor cero, detección de pico adaptativa y utiliza la referencia de voltaje\ninterna. Según la hoja de datos, este modo de operación es el más\nrobusto y sencillo ya que reduce la cantidad de componentes externos.
 $EndSCHEMATC
