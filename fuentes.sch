@@ -1,0 +1,161 @@
+EESchema Schematic File Version 4
+LIBS:ice-adq-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 7 8
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector:Screw_Terminal_01x02 J7
+U 1 1 61C4739C
+P 3600 3800
+F 0 "J7" H 3520 3475 50  0000 C CNN
+F 1 "BATT" H 3520 3566 50  0000 C CNN
+F 2 "" H 3600 3800 50  0001 C CNN
+F 3 "~" H 3600 3800 50  0001 C CNN
+	1    3600 3800
+	-1   0    0    1   
+$EndComp
+$Comp
+L Regulator_Linear:L7805 U9
+U 1 1 61C4746F
+P 5150 3700
+F 0 "U9" H 5150 3942 50  0000 C CNN
+F 1 "L7805" H 5150 3851 50  0000 C CNN
+F 2 "" H 5175 3550 50  0001 L CIN
+F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf" H 5150 3650 50  0001 C CNN
+	1    5150 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP1_Small C14
+U 1 1 61C47546
+P 4600 4000
+F 0 "C14" H 4691 4046 50  0000 L CNN
+F 1 "0.22uF" H 4691 3955 50  0000 L CNN
+F 2 "" H 4600 4000 50  0001 C CNN
+F 3 "~" H 4600 4000 50  0001 C CNN
+	1    4600 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C15
+U 1 1 61C4762F
+P 5550 4000
+F 0 "C15" H 5642 4046 50  0000 L CNN
+F 1 "C_Small" H 5642 3955 50  0000 L CNN
+F 2 "" H 5550 4000 50  0001 C CNN
+F 3 "~" H 5550 4000 50  0001 C CNN
+	1    5550 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L basico-rescue:GND #PWR0115
+U 1 1 61C47690
+P 5150 4250
+F 0 "#PWR0115" H 5150 4000 50  0001 C CNN
+F 1 "GND" H 5155 4077 50  0000 C CNN
+F 2 "" H 5150 4250 50  0000 C CNN
+F 3 "" H 5150 4250 50  0000 C CNN
+	1    5150 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L basico-rescue:GND #PWR0118
+U 1 1 61C47BA4
+P 3900 3900
+F 0 "#PWR0118" H 3900 3650 50  0001 C CNN
+F 1 "GND" H 3905 3727 50  0000 C CNN
+F 2 "" H 3900 3900 50  0000 C CNN
+F 3 "" H 3900 3900 50  0000 C CNN
+	1    3900 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3800 3800 3900 3800
+Wire Wire Line
+	3900 3800 3900 3900
+Wire Wire Line
+	3800 3700 3900 3700
+Wire Wire Line
+	5150 4000 5150 4200
+Wire Wire Line
+	5150 4200 5550 4200
+Wire Wire Line
+	5550 4200 5550 4100
+Connection ~ 5150 4200
+Wire Wire Line
+	5150 4200 5150 4250
+Wire Wire Line
+	5450 3700 5550 3700
+Wire Wire Line
+	5550 3700 5550 3900
+Wire Wire Line
+	4850 3700 4600 3700
+Wire Wire Line
+	4600 3700 4600 3900
+Wire Wire Line
+	4600 4100 4600 4200
+Wire Wire Line
+	4600 4200 5150 4200
+Connection ~ 5550 3700
+Wire Wire Line
+	3900 3700 4600 3700
+Connection ~ 3900 3700
+Connection ~ 4600 3700
+Wire Wire Line
+	3900 3500 3900 3550
+Wire Wire Line
+	5550 3700 5700 3700
+$Comp
+L power:+12V #PWR0107
+U 1 1 61C6348E
+P 3900 3500
+F 0 "#PWR0107" H 3900 3350 50  0001 C CNN
+F 1 "+12V" H 3915 3673 50  0000 C CNN
+F 2 "" H 3900 3500 50  0001 C CNN
+F 3 "" H 3900 3500 50  0001 C CNN
+	1    3900 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L basico-rescue:+5V #PWR0108
+U 1 1 61C634C3
+P 5700 3500
+F 0 "#PWR0108" H 5700 3350 50  0001 C CNN
+F 1 "+5V" H 5715 3673 50  0000 C CNN
+F 2 "" H 5700 3500 50  0000 C CNN
+F 3 "" H 5700 3500 50  0000 C CNN
+	1    5700 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0102
+U 1 1 61C64C23
+P 4200 3500
+F 0 "#FLG0102" H 4200 3575 50  0001 C CNN
+F 1 "PWR_FLAG" H 4200 3674 50  0000 C CNN
+F 2 "" H 4200 3500 50  0001 C CNN
+F 3 "~" H 4200 3500 50  0001 C CNN
+	1    4200 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4200 3500 4200 3550
+Wire Wire Line
+	4200 3550 3900 3550
+Connection ~ 3900 3550
+Wire Wire Line
+	3900 3550 3900 3700
+Wire Wire Line
+	5700 3500 5700 3700
+$EndSCHEMATC

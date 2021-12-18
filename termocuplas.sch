@@ -4,10 +4,10 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 8268 11693 portrait
 encoding utf-8
-Sheet 2 6
+Sheet 2 8
 Title "Amplificadores de termocuplas"
-Date "2021-02-07"
-Rev "R0"
+Date "2021-12-18"
+Rev "1.0"
 Comp "Autor: Ignacio Moya"
 Comment1 "Especialización en Sistemas Embebidos 2021 - FIUBA"
 Comment2 ""
@@ -15,43 +15,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Amplifier_Thermocouple:MAX31855 U?
-U 1 1 601FE82E
-P 4450 3750
-F 0 "U?" H 4450 4125 50  0000 C CNN
-F 1 "MAX31855" H 4450 4034 50  0000 C CNN
-F 2 "" H 4450 3750 50  0001 C CNN
-F 3 "" H 4450 3750 50  0001 C CNN
-	1    4450 3750
-	1    0    0    -1  
-$EndComp
-$Comp
-L Amplifier_Thermocouple:MAX31855 U?
-U 1 1 601FE86C
-P 4450 4550
-F 0 "U?" H 4450 4925 50  0000 C CNN
-F 1 "MAX31855" H 4450 4834 50  0000 C CNN
-F 2 "" H 4450 4550 50  0001 C CNN
-F 3 "" H 4450 4550 50  0001 C CNN
-	1    4450 4550
-	1    0    0    -1  
-$EndComp
-$Comp
-L Amplifier_Thermocouple:MAX31855 U?
-U 1 1 601FE8BD
-P 4450 5350
-F 0 "U?" H 4450 5725 50  0000 C CNN
-F 1 "MAX31855" H 4450 5634 50  0000 C CNN
-F 2 "" H 4450 5350 50  0001 C CNN
-F 3 "" H 4450 5350 50  0001 C CNN
-	1    4450 5350
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C?
+L Device:C_Small C1
 U 1 1 601FEC0E
 P 3700 6750
-F 0 "C?" H 3608 6704 50  0000 R CNN
+F 0 "C1" H 3608 6704 50  0000 R CNN
 F 1 "C_Small" H 3608 6795 50  0000 R CNN
 F 2 "" H 3700 6750 50  0001 C CNN
 F 3 "~" H 3700 6750 50  0001 C CNN
@@ -59,10 +26,10 @@ F 3 "~" H 3700 6750 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:C_Small C?
+L Device:C_Small C2
 U 1 1 601FEC5F
 P 4200 6750
-F 0 "C?" H 4108 6704 50  0000 R CNN
+F 0 "C2" H 4108 6704 50  0000 R CNN
 F 1 "C_Small" H 4108 6795 50  0000 R CNN
 F 2 "" H 4200 6750 50  0001 C CNN
 F 3 "~" H 4200 6750 50  0001 C CNN
@@ -70,10 +37,10 @@ F 3 "~" H 4200 6750 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:C_Small C?
+L Device:C_Small C3
 U 1 1 601FEC9C
 P 4650 6750
-F 0 "C?" H 4558 6704 50  0000 R CNN
+F 0 "C3" H 4558 6704 50  0000 R CNN
 F 1 "C_Small" H 4558 6795 50  0000 R CNN
 F 2 "" H 4650 6750 50  0001 C CNN
 F 3 "~" H 4650 6750 50  0001 C CNN
@@ -91,10 +58,10 @@ ESC_CS
 Text HLabel 5050 5400 2    50   Input ~ 0
 ACT_CS
 $Comp
-L power:+3V3 #PWR?
+L power:+3V3 #PWR03
 U 1 1 601FEEB4
 P 3950 3500
-F 0 "#PWR?" H 3950 3350 50  0001 C CNN
+F 0 "#PWR03" H 3950 3350 50  0001 C CNN
 F 1 "+3V3" H 3965 3673 50  0000 C CNN
 F 2 "" H 3950 3500 50  0001 C CNN
 F 3 "" H 3950 3500 50  0001 C CNN
@@ -102,10 +69,10 @@ F 3 "" H 3950 3500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR04
 U 1 1 601FEF21
 P 4000 5650
-F 0 "#PWR?" H 4000 5400 50  0001 C CNN
+F 0 "#PWR04" H 4000 5400 50  0001 C CNN
 F 1 "GND" H 4005 5477 50  0000 C CNN
 F 2 "" H 4000 5650 50  0001 C CNN
 F 3 "" H 4000 5650 50  0001 C CNN
@@ -134,10 +101,10 @@ Connection ~ 3950 3600
 Wire Wire Line
 	4100 5200 3950 5200
 $Comp
-L power:GND #PWR?
+L power:GND #PWR018
 U 1 1 601FF433
 P 4200 7050
-F 0 "#PWR?" H 4200 6800 50  0001 C CNN
+F 0 "#PWR018" H 4200 6800 50  0001 C CNN
 F 1 "GND" H 4205 6877 50  0000 C CNN
 F 2 "" H 4200 7050 50  0001 C CNN
 F 3 "" H 4200 7050 50  0001 C CNN
@@ -160,10 +127,10 @@ Wire Wire Line
 Wire Wire Line
 	4200 7050 4200 6850
 $Comp
-L power:+3V3 #PWR?
+L power:+3V3 #PWR013
 U 1 1 601FFCA9
 P 4200 6500
-F 0 "#PWR?" H 4200 6350 50  0001 C CNN
+F 0 "#PWR013" H 4200 6350 50  0001 C CNN
 F 1 "+3V3" H 4215 6673 50  0000 C CNN
 F 2 "" H 4200 6500 50  0001 C CNN
 F 3 "" H 4200 6500 50  0001 C CNN
@@ -217,10 +184,10 @@ Wire Wire Line
 Wire Wire Line
 	4800 5400 5050 5400
 $Comp
-L Connector:Screw_Terminal_01x02 J?
+L Connector:Screw_Terminal_01x02 J1
 U 1 1 601FF299
 P 3300 3850
-F 0 "J?" H 3220 3525 50  0000 C CNN
+F 0 "J1" H 3220 3525 50  0000 C CNN
 F 1 "T_Admisión" H 3220 3616 50  0000 C CNN
 F 2 "" H 3300 3850 50  0001 C CNN
 F 3 "~" H 3300 3850 50  0001 C CNN
@@ -228,10 +195,10 @@ F 3 "~" H 3300 3850 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Connector:Screw_Terminal_01x02 J?
+L Connector:Screw_Terminal_01x02 J2
 U 1 1 601FF30D
 P 3350 4650
-F 0 "J?" H 3270 4325 50  0000 C CNN
+F 0 "J2" H 3270 4325 50  0000 C CNN
 F 1 "T_Escape" H 3270 4416 50  0000 C CNN
 F 2 "" H 3350 4650 50  0001 C CNN
 F 3 "~" H 3350 4650 50  0001 C CNN
@@ -239,28 +206,16 @@ F 3 "~" H 3350 4650 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Connector:Screw_Terminal_01x02 J?
+L Connector:Screw_Terminal_01x02 J3
 U 1 1 601FF365
 P 3400 5450
-F 0 "J?" H 3320 5125 50  0000 C CNN
+F 0 "J3" H 3320 5125 50  0000 C CNN
 F 1 "T_Aceite" H 3320 5216 50  0000 C CNN
 F 2 "" H 3400 5450 50  0001 C CNN
 F 3 "~" H 3400 5450 50  0001 C CNN
 	1    3400 5450
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	3500 3750 4100 3750
-Wire Wire Line
-	3500 3850 4100 3850
-Wire Wire Line
-	3550 4550 4100 4550
-Wire Wire Line
-	3550 4650 4100 4650
-Wire Wire Line
-	3600 5350 4100 5350
-Wire Wire Line
-	3600 5450 4100 5450
 Wire Notes Line
 	2850 3150 5550 3150
 Wire Notes Line
@@ -289,4 +244,49 @@ Wire Notes Line
 	5700 7500 2600 7500
 Wire Notes Line
 	2600 7500 2600 2900
+$Comp
+L Amplifier_Thermocouple:MAX31855 U1
+U 1 1 61C66817
+P 4450 3750
+F 0 "U1" H 4450 4125 50  0000 C CNN
+F 1 "MAX31855" H 4450 4034 50  0000 C CNN
+F 2 "" H 4450 3750 50  0001 C CNN
+F 3 "" H 4450 3750 50  0001 C CNN
+	1    4450 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Thermocouple:MAX31855 U3
+U 1 1 61C66899
+P 4450 5350
+F 0 "U3" H 4450 5725 50  0000 C CNN
+F 1 "MAX31855" H 4450 5634 50  0000 C CNN
+F 2 "" H 4450 5350 50  0001 C CNN
+F 3 "" H 4450 5350 50  0001 C CNN
+	1    4450 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Thermocouple:MAX31855 U2
+U 1 1 61C66976
+P 4450 4550
+F 0 "U2" H 4450 4925 50  0000 C CNN
+F 1 "MAX31855" H 4450 4834 50  0000 C CNN
+F 2 "" H 4450 4550 50  0001 C CNN
+F 3 "" H 4450 4550 50  0001 C CNN
+	1    4450 4550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3600 5450 4100 5450
+Wire Wire Line
+	3600 5350 4100 5350
+Wire Wire Line
+	3550 4650 4100 4650
+Wire Wire Line
+	3550 4550 4100 4550
+Wire Wire Line
+	3500 3850 4100 3850
+Wire Wire Line
+	3500 3750 4100 3750
 $EndSCHEMATC

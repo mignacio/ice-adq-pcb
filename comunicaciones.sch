@@ -4,10 +4,10 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 8268 11693 portrait
 encoding utf-8
-Sheet 6 6
+Sheet 6 8
 Title ""
-Date ""
-Rev ""
+Date "2021-12-18"
+Rev "1.0"
 Comp "Autor: Ignacio Moya"
 Comment1 "Especialización en Sistemas Embebidos 2021 - FIUBA"
 Comment2 ""
@@ -15,10 +15,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L hm10:hm10 U?
+L hm10:hm10 U8
 U 1 1 61B55EEA
 P 4600 5900
-F 0 "U?" H 4878 5946 50  0000 L CNN
+F 0 "U8" H 4878 5946 50  0000 L CNN
 F 1 "hm10" H 4878 5855 50  0000 L CNN
 F 2 "" V 4650 5650 50  0001 L CNN
 F 3 "" H 4550 5850 50  0001 C CNN
@@ -26,10 +26,10 @@ F 3 "" H 4550 5850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR?
+L power:+3.3V #PWR039
 U 1 1 61B55F54
 P 4150 5300
-F 0 "#PWR?" H 4150 5150 50  0001 C CNN
+F 0 "#PWR039" H 4150 5150 50  0001 C CNN
 F 1 "+3.3V" H 4165 5473 50  0000 C CNN
 F 2 "" H 4150 5300 50  0001 C CNN
 F 3 "" H 4150 5300 50  0001 C CNN
@@ -37,10 +37,10 @@ F 3 "" H 4150 5300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L basico-rescue:GND #PWR?
+L basico-rescue:GND #PWR040
 U 1 1 61B55F96
 P 4150 6250
-F 0 "#PWR?" H 4150 6000 50  0001 C CNN
+F 0 "#PWR040" H 4150 6000 50  0001 C CNN
 F 1 "GND" H 4155 6077 50  0000 C CNN
 F 2 "" H 4150 6250 50  0000 C CNN
 F 3 "" H 4150 6250 50  0000 C CNN
@@ -59,17 +59,17 @@ Wire Wire Line
 	3800 5900 4200 5900
 Wire Wire Line
 	3800 6000 4200 6000
-Text HLabel 3800 5800 0    50   Input ~ 0
+Text HLabel 3800 5800 0    50   Output ~ 0
 BT_TX
 Text HLabel 3800 5900 0    50   Input ~ 0
 BT_RX
-Text HLabel 3800 6000 0    50   Input ~ 0
+Text HLabel 3800 6000 0    50   Output ~ 0
 BT_STATE
 $Comp
-L Device:C_Small C?
+L Device:C_Small C13
 U 1 1 61BB32CB
 P 4000 5450
-F 0 "C?" V 3863 5450 50  0000 C CNN
+F 0 "C13" V 3863 5450 50  0000 C CNN
 F 1 "C_Small" H 4092 5405 50  0001 L CNN
 F 2 "" H 4000 5450 50  0001 C CNN
 F 3 "~" H 4000 5450 50  0001 C CNN
@@ -77,10 +77,10 @@ F 3 "~" H 4000 5450 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L basico-rescue:GND #PWR?
+L basico-rescue:GND #PWR038
 U 1 1 61BB3391
 P 3800 5500
-F 0 "#PWR?" H 3800 5250 50  0001 C CNN
+F 0 "#PWR038" H 3800 5250 50  0001 C CNN
 F 1 "GND" H 3805 5327 50  0000 C CNN
 F 2 "" H 3800 5500 50  0000 C CNN
 F 3 "" H 3800 5500 50  0000 C CNN
