@@ -149,11 +149,11 @@ L Connector:Screw_Terminal_01x03 J5
 U 1 1 61B5E81F
 P 5850 5250
 F 0 "J5" H 5930 5246 50  0000 L CNN
-F 1 "Sens. Inductivo" H 5500 5500 50  0000 L CNN
+F 1 "Sens. Inductivo" H 5500 5000 50  0000 L CNN
 F 2 "TerminalBlock:TerminalBlock_bornier-3_P5.08mm" H 5850 5250 50  0001 C CNN
 F 3 "~" H 5850 5250 50  0001 C CNN
 	1    5850 5250
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 Wire Wire Line
 	5300 5050 5400 5050

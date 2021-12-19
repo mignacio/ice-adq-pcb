@@ -141,13 +141,13 @@ Wire Wire Line
 $Comp
 L Connector:Screw_Terminal_01x02 J4
 U 1 1 6027F2A5
-P 1000 5300
-F 0 "J4" H 920 4975 50  0000 C CNN
-F 1 "Sonda Lambda" H 920 5066 50  0000 C CNN
-F 2 "" H 1000 5300 50  0001 C CNN
-F 3 "~" H 1000 5300 50  0001 C CNN
-	1    1000 5300
-	-1   0    0    1   
+P 1000 5200
+F 0 "J4" H 1000 5350 50  0000 C CNN
+F 1 "Sonda Lambda" H 1000 4900 50  0000 C CNN
+F 2 "" H 1000 5200 50  0001 C CNN
+F 3 "~" H 1000 5200 50  0001 C CNN
+	1    1000 5200
+	-1   0    0    -1  
 $EndComp
 $Comp
 L Device:C_Small C8
@@ -439,10 +439,28 @@ $EndComp
 Wire Wire Line
 	6450 4150 6400 4150
 Wire Wire Line
-	6400 4150 6400 4350
+	6400 4150 6400 4250
 Wire Wire Line
 	6400 4350 6450 4350
 Wire Wire Line
 	3400 5250 4350 5250
 Connection ~ 3400 5250
+$Comp
+L power:GND #PWR0110
+U 1 1 61BFA1FD
+P 6300 4300
+F 0 "#PWR0110" H 6300 4050 50  0001 C CNN
+F 1 "GND" H 6305 4127 50  0000 C CNN
+F 2 "" H 6300 4300 50  0001 C CNN
+F 3 "" H 6300 4300 50  0001 C CNN
+	1    6300 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6300 4300 6300 4250
+Wire Wire Line
+	6300 4250 6400 4250
+Connection ~ 6400 4250
+Wire Wire Line
+	6400 4250 6400 4350
 $EndSCHEMATC

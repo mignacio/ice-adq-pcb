@@ -192,7 +192,6 @@ NoConn ~ 3350 7500
 NoConn ~ 3350 7600
 NoConn ~ 3350 3100
 NoConn ~ 3350 3200
-NoConn ~ 3350 3400
 NoConn ~ 3350 3700
 NoConn ~ 3350 3800
 NoConn ~ 3350 3900
@@ -260,11 +259,11 @@ Text HLabel 4650 6700 2    50   Input ~ 0
 SO
 Text HLabel 4650 6800 2    50   Output ~ 0
 SCK
-Text HLabel 4650 6900 2    50   Output ~ 0
+Text HLabel 4650 7100 2    50   Output ~ 0
 ADM_CS
 Text HLabel 4650 7000 2    50   Output ~ 0
 ESC_CS
-Text HLabel 4650 7100 2    50   Output ~ 0
+Text HLabel 4650 6900 2    50   Output ~ 0
 ACT_CS
 Text HLabel 3300 4100 0    50   Input ~ 0
 BT_TX
@@ -274,7 +273,7 @@ Text HLabel 3300 4300 0    50   Input ~ 0
 BT_STATE
 Text HLabel 4650 7400 2    50   Input ~ 0
 RPM_PULSE_I
-Text HLabel 3300 3600 0    50   Input ~ 0
+Text HLabel 3300 3400 0    50   Input ~ 0
 PRES_IN
 Text HLabel 3300 3500 0    50   Input ~ 0
 O2_IN
@@ -400,8 +399,6 @@ Wire Notes Line
 Wire Wire Line
 	3300 3500 3350 3500
 Wire Wire Line
-	3300 3600 3350 3600
-Wire Wire Line
 	2850 3350 2850 3300
 Wire Wire Line
 	2850 3300 3350 3300
@@ -425,4 +422,7 @@ Wire Notes Line
 	2500 8450 5500 8450
 Text Notes 2550 2250 0    50   ~ 0
 Conectores EDU-CIAA
+Wire Wire Line
+	3300 3400 3350 3400
+NoConn ~ 3350 3600
 $EndSCHEMATC
