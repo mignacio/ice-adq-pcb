@@ -6,7 +6,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 7 8
 Title ""
-Date ""
+Date "2021-12-19"
 Rev ""
 Comp ""
 Comment1 ""
@@ -20,7 +20,7 @@ U 1 1 61C4739C
 P 3600 3800
 F 0 "J7" H 3520 3475 50  0000 C CNN
 F 1 "BATT" H 3520 3566 50  0000 C CNN
-F 2 "" H 3600 3800 50  0001 C CNN
+F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 3600 3800 50  0001 C CNN
 F 3 "~" H 3600 3800 50  0001 C CNN
 	1    3600 3800
 	-1   0    0    1   
@@ -31,7 +31,7 @@ U 1 1 61C4746F
 P 5150 3700
 F 0 "U9" H 5150 3942 50  0000 C CNN
 F 1 "L7805" H 5150 3851 50  0000 C CNN
-F 2 "" H 5175 3550 50  0001 L CIN
+F 2 "Package_TO_SOT_SMD:TO-263-3_TabPin4" H 5175 3550 50  0001 L CIN
 F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf" H 5150 3650 50  0001 C CNN
 	1    5150 3700
 	1    0    0    -1  
@@ -52,8 +52,8 @@ L Device:C_Small C15
 U 1 1 61C4762F
 P 5550 4000
 F 0 "C15" H 5642 4046 50  0000 L CNN
-F 1 "C_Small" H 5642 3955 50  0000 L CNN
-F 2 "" H 5550 4000 50  0001 C CNN
+F 1 "0.01uF" H 5642 3955 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5550 4000 50  0001 C CNN
 F 3 "~" H 5550 4000 50  0001 C CNN
 	1    5550 4000
 	1    0    0    -1  
@@ -113,8 +113,6 @@ Wire Wire Line
 Connection ~ 3900 3700
 Connection ~ 4600 3700
 Wire Wire Line
-	3900 3500 3900 3550
-Wire Wire Line
 	5550 3700 5700 3700
 $Comp
 L power:+12V #PWR0107
@@ -138,6 +136,17 @@ F 3 "" H 5700 3500 50  0000 C CNN
 	1    5700 3500
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	5700 3500 5700 3700
+Wire Wire Line
+	3900 3550 3900 3700
+Wire Wire Line
+	3900 3500 3900 3550
+Connection ~ 3900 3550
+Wire Wire Line
+	4200 3550 3900 3550
+Wire Wire Line
+	4200 3500 4200 3550
 $Comp
 L power:PWR_FLAG #FLG0102
 U 1 1 61C64C23
@@ -149,13 +158,4 @@ F 3 "~" H 4200 3500 50  0001 C CNN
 	1    4200 3500
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4200 3500 4200 3550
-Wire Wire Line
-	4200 3550 3900 3550
-Connection ~ 3900 3550
-Wire Wire Line
-	3900 3550 3900 3700
-Wire Wire Line
-	5700 3500 5700 3700
 $EndSCHEMATC

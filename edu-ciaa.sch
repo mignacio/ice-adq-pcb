@@ -5,8 +5,8 @@ EELAYER END
 $Descr A4 8268 11693 portrait
 encoding utf-8
 Sheet 8 8
-Title ""
-Date "2021-12-18"
+Title "Conectores EDU-CIAA"
+Date "2021-12-19"
 Rev "1.0"
 Comp "Autor: Ignacio Moya"
 Comment1 "Especialización en Sistemas Embebidos 2021 - FIUBA"
@@ -43,30 +43,30 @@ $EndComp
 $Comp
 L basico-rescue:PWR_FLAG #FLG?
 U 1 1 61C156D8
-P 2850 8200
+P 2850 7750
 AR Path="/61C156D8" Ref="#FLG?"  Part="1" 
 AR Path="/61C15501/61C156D8" Ref="#FLG0101"  Part="1" 
-F 0 "#FLG0101" H 2850 8295 30  0001 C CNN
-F 1 "PWR_FLAG" H 2850 8380 30  0000 C CNN
-F 2 "" H 2850 8200 60  0000 C CNN
-F 3 "" H 2850 8200 60  0000 C CNN
-	1    2850 8200
+F 0 "#FLG0101" H 2850 7845 30  0001 C CNN
+F 1 "PWR_FLAG" H 2850 7930 30  0000 C CNN
+F 2 "" H 2850 7750 60  0000 C CNN
+F 3 "" H 2850 7750 60  0000 C CNN
+	1    2850 7750
 	1    0    0    -1  
 $EndComp
 $Comp
 L basico-rescue:Conn_Poncho2P_2x_20x2 XA?
 U 2 1 61C156F1
-P 3600 6650
+P 3600 6200
 AR Path="/61C156F1" Ref="XA?"  Part="2" 
 AR Path="/61C15501/61C156F1" Ref="XA1"  Part="2" 
-F 0 "XA1" H 3900 7050 60  0000 C CNN
-F 1 "Conn_Poncho2P_2x_20x2" H 3950 4950 60  0000 C CNN
-F 2 "footprint:Conn_Poncho_SinBorde" H 3600 6650 60  0001 C CNN
-F 3 "" H 3600 6650 60  0000 C CNN
-F 4 "Harwin" H 3600 6650 60  0001 C CNN "Manf"
-F 5 "M50-3502042" H 3600 6650 60  0001 C CNN "Manf#"
-F 6 "952-1387-ND" H 3600 6650 60  0001 C CNN "Digikey#"
-	2    3600 6650
+F 0 "XA1" H 3900 6600 60  0000 C CNN
+F 1 "Conn_Poncho2P_2x_20x2" H 3950 4500 60  0000 C CNN
+F 2 "footprint:Conn_Poncho_SinBorde" H 3600 6200 60  0001 C CNN
+F 3 "" H 3600 6200 60  0000 C CNN
+F 4 "Harwin" H 3600 6200 60  0001 C CNN "Manf"
+F 5 "M50-3502042" H 3600 6200 60  0001 C CNN "Manf#"
+F 6 "952-1387-ND" H 3600 6200 60  0001 C CNN "Digikey#"
+	2    3600 6200
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -112,41 +112,41 @@ Wire Wire Line
 	4550 3100 4750 3100
 Connection ~ 4750 3900
 Wire Wire Line
-	3150 6450 3150 6550
+	3150 6000 3150 6100
 Wire Wire Line
-	3150 8150 3350 8150
+	3150 7700 3350 7700
 Wire Wire Line
-	2850 8250 3150 8250
-Connection ~ 3150 8250
+	2850 7800 3150 7800
+Connection ~ 3150 7800
 Wire Wire Line
-	3150 7650 3350 7650
-Connection ~ 3150 8150
+	3150 7200 3350 7200
+Connection ~ 3150 7700
 Wire Wire Line
-	3150 7550 3350 7550
-Connection ~ 3150 7650
+	3150 7100 3350 7100
+Connection ~ 3150 7200
 Wire Wire Line
-	3150 7250 3350 7250
-Connection ~ 3150 7550
+	3150 6800 3350 6800
+Connection ~ 3150 7100
 Wire Wire Line
-	3150 7150 3350 7150
-Connection ~ 3150 7250
+	3150 6700 3350 6700
+Connection ~ 3150 6800
 Wire Wire Line
-	3150 6950 3350 6950
-Connection ~ 3150 7150
+	3150 6500 3350 6500
+Connection ~ 3150 6700
 Wire Wire Line
-	3150 6850 3350 6850
-Connection ~ 3150 6950
+	3150 6400 3350 6400
+Connection ~ 3150 6500
 Wire Wire Line
-	3150 6650 3350 6650
-Connection ~ 3150 6850
+	3150 6200 3350 6200
+Connection ~ 3150 6400
 Wire Wire Line
-	3150 6550 3350 6550
-Connection ~ 3150 6650
+	3150 6100 3350 6100
+Connection ~ 3150 6200
 Wire Wire Line
-	3150 6450 3350 6450
-Connection ~ 3150 6550
+	3150 6000 3350 6000
+Connection ~ 3150 6100
 Wire Wire Line
-	2850 8250 2850 8200
+	2850 7800 2850 7750
 Wire Wire Line
 	4550 3300 4600 3300
 Wire Wire Line
@@ -169,27 +169,27 @@ Wire Wire Line
 	5050 3400 5050 3450
 Wire Wire Line
 	4550 4900 4750 4900
-NoConn ~ 4550 6450
-NoConn ~ 4550 6550
-NoConn ~ 4550 6650
-NoConn ~ 4550 6750
-NoConn ~ 4550 6850
-NoConn ~ 4550 6950
-NoConn ~ 4550 7050
-NoConn ~ 4550 7650
-NoConn ~ 4550 7750
-NoConn ~ 4550 7950
-NoConn ~ 4550 8050
-NoConn ~ 4550 8150
-NoConn ~ 4550 8250
-NoConn ~ 3350 6750
-NoConn ~ 3350 7050
-NoConn ~ 3350 7350
-NoConn ~ 3350 7450
-NoConn ~ 3350 7750
-NoConn ~ 3350 7850
-NoConn ~ 3350 7950
-NoConn ~ 3350 8050
+NoConn ~ 4550 6000
+NoConn ~ 4550 6100
+NoConn ~ 4550 6200
+NoConn ~ 4550 6300
+NoConn ~ 4550 6400
+NoConn ~ 4550 6500
+NoConn ~ 4550 6600
+NoConn ~ 4550 7200
+NoConn ~ 4550 7300
+NoConn ~ 4550 7500
+NoConn ~ 4550 7600
+NoConn ~ 4550 7700
+NoConn ~ 4550 7800
+NoConn ~ 3350 6300
+NoConn ~ 3350 6600
+NoConn ~ 3350 6900
+NoConn ~ 3350 7000
+NoConn ~ 3350 7300
+NoConn ~ 3350 7400
+NoConn ~ 3350 7500
+NoConn ~ 3350 7600
 NoConn ~ 3350 3100
 NoConn ~ 3350 3200
 NoConn ~ 3350 3400
@@ -225,27 +225,27 @@ Wire Wire Line
 Wire Wire Line
 	4750 3900 4750 4000
 Wire Wire Line
-	3150 8250 3150 8400
+	3150 7800 3150 7950
 Wire Wire Line
-	3150 8250 3350 8250
+	3150 7800 3350 7800
 Wire Wire Line
-	3150 8150 3150 8250
+	3150 7700 3150 7800
 Wire Wire Line
-	3150 7650 3150 8150
+	3150 7200 3150 7700
 Wire Wire Line
-	3150 7550 3150 7650
+	3150 7100 3150 7200
 Wire Wire Line
-	3150 7250 3150 7550
+	3150 6800 3150 7100
 Wire Wire Line
-	3150 7150 3150 7250
+	3150 6700 3150 6800
 Wire Wire Line
-	3150 6950 3150 7150
+	3150 6500 3150 6700
 Wire Wire Line
-	3150 6850 3150 6950
+	3150 6400 3150 6500
 Wire Wire Line
-	3150 6650 3150 6850
+	3150 6200 3150 6400
 Wire Wire Line
-	3150 6550 3150 6650
+	3150 6100 3150 6200
 Wire Wire Line
 	4600 3700 4600 3800
 Wire Wire Line
@@ -256,50 +256,38 @@ Wire Wire Line
 	4600 3400 4600 3500
 Wire Wire Line
 	4600 3400 5050 3400
-Text HLabel 4650 7150 2    50   Input ~ 0
+Text HLabel 4650 6700 2    50   Input ~ 0
 SO
-Text HLabel 4650 7250 2    50   Output ~ 0
+Text HLabel 4650 6800 2    50   Output ~ 0
 SCK
-Text HLabel 4650 7350 2    50   Output ~ 0
+Text HLabel 4650 6900 2    50   Output ~ 0
 ADM_CS
-Text HLabel 4650 7450 2    50   Output ~ 0
+Text HLabel 4650 7000 2    50   Output ~ 0
 ESC_CS
-Text HLabel 4650 7550 2    50   Output ~ 0
+Text HLabel 4650 7100 2    50   Output ~ 0
 ACT_CS
-Text HLabel 3250 4100 0    50   Input ~ 0
+Text HLabel 3300 4100 0    50   Input ~ 0
 BT_TX
-Text HLabel 3250 4200 0    50   Output ~ 0
+Text HLabel 3300 4200 0    50   Output ~ 0
 BT_RX
-Text HLabel 3250 4300 0    50   Input ~ 0
+Text HLabel 3300 4300 0    50   Input ~ 0
 BT_STATE
-Text HLabel 4650 7850 2    50   Input ~ 0
+Text HLabel 4650 7400 2    50   Input ~ 0
 RPM_PULSE_I
-Text HLabel 3250 3600 0    50   Input ~ 0
+Text HLabel 3300 3600 0    50   Input ~ 0
 PRES_IN
-Text HLabel 3250 3500 0    50   Input ~ 0
+Text HLabel 3300 3500 0    50   Input ~ 0
 O2_IN
 Wire Wire Line
-	4550 7150 4650 7150
+	4550 6700 4650 6700
 Wire Wire Line
-	4550 7250 4650 7250
+	4550 6800 4650 6800
 Wire Wire Line
-	4550 7350 4650 7350
+	4550 6900 4650 6900
 Wire Wire Line
-	4550 7450 4650 7450
+	4550 7000 4650 7000
 Wire Wire Line
-	4550 7550 4650 7550
-Wire Wire Line
-	2650 3400 2650 3300
-Wire Wire Line
-	2650 3300 3350 3300
-Wire Wire Line
-	3250 3500 3350 3500
-Wire Wire Line
-	3250 3600 3350 3600
-Wire Wire Line
-	3250 4100 3350 4100
-Wire Wire Line
-	3250 4200 3350 4200
+	4550 7100 4650 7100
 $Comp
 L basico-rescue:Conn_Poncho2P_2x_20x2 XA?
 U 1 1 61C156E7
@@ -317,18 +305,16 @@ F 6 "952-1387-ND" H 3600 3300 60  0001 C CNN "Digikey#"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3250 4300 3350 4300
-Wire Wire Line
-	4550 7850 4650 7850
+	4550 7400 4650 7400
 $Comp
 L basico-rescue:GND #PWR0113
 U 1 1 61C508C2
-P 2650 3400
-F 0 "#PWR0113" H 2650 3150 50  0001 C CNN
-F 1 "GND" H 2655 3227 50  0000 C CNN
-F 2 "" H 2650 3400 50  0000 C CNN
-F 3 "" H 2650 3400 50  0000 C CNN
-	1    2650 3400
+P 2850 3350
+F 0 "#PWR0113" H 2850 3100 50  0001 C CNN
+F 1 "GND" H 2855 3177 50  0000 C CNN
+F 2 "" H 2850 3350 50  0000 C CNN
+F 3 "" H 2850 3350 50  0000 C CNN
+	1    2850 3350
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -345,33 +331,33 @@ $EndComp
 $Comp
 L basico-rescue:+3.3V #PWR?
 U 1 1 61C509D3
-P 3150 6200
+P 3150 5750
 AR Path="/61C509D3" Ref="#PWR?"  Part="1" 
 AR Path="/61C15501/61C509D3" Ref="#PWR0103"  Part="1" 
-F 0 "#PWR0103" H 3150 6160 30  0001 C CNN
-F 1 "+3.3V" H 3150 6310 30  0000 C CNN
-F 2 "" H 3150 6200 60  0000 C CNN
-F 3 "" H 3150 6200 60  0000 C CNN
-	1    3150 6200
+F 0 "#PWR0103" H 3150 5710 30  0001 C CNN
+F 1 "+3.3V" H 3150 5860 30  0000 C CNN
+F 2 "" H 3150 5750 60  0000 C CNN
+F 3 "" H 3150 5750 60  0000 C CNN
+	1    3150 5750
 	1    0    0    -1  
 $EndComp
 $Comp
 L basico-rescue:+5V #PWR?
 U 1 1 61C509E2
-P 4750 6200
+P 4750 5750
 AR Path="/61C509E2" Ref="#PWR?"  Part="1" 
 AR Path="/61C15501/61C509E2" Ref="#PWR0105"  Part="1" 
-F 0 "#PWR0105" H 4750 6290 20  0001 C CNN
-F 1 "+5V" H 4750 6350 30  0000 C CNN
-F 2 "" H 4750 6200 60  0000 C CNN
-F 3 "" H 4750 6200 60  0000 C CNN
-	1    4750 6200
+F 0 "#PWR0105" H 4750 5840 20  0001 C CNN
+F 1 "+5V" H 4750 5900 30  0000 C CNN
+F 2 "" H 4750 5750 60  0000 C CNN
+F 3 "" H 4750 5750 60  0000 C CNN
+	1    4750 5750
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3150 6200 3150 6350
+	3150 5750 3150 5900
 Wire Wire Line
-	3150 6350 3350 6350
+	3150 5900 3350 5900
 Wire Wire Line
 	4550 3000 4750 3000
 Wire Wire Line
@@ -381,18 +367,62 @@ Wire Wire Line
 Wire Wire Line
 	3150 3000 3350 3000
 Wire Wire Line
-	4550 6350 4750 6350
+	4550 5900 4750 5900
 Wire Wire Line
-	4750 6350 4750 6200
+	4750 5900 4750 5750
 $Comp
 L basico-rescue:GND #PWR0106
 U 1 1 61C62E46
-P 3150 8400
-F 0 "#PWR0106" H 3150 8150 50  0001 C CNN
-F 1 "GND" H 3155 8227 50  0000 C CNN
-F 2 "" H 3150 8400 50  0000 C CNN
-F 3 "" H 3150 8400 50  0000 C CNN
-	1    3150 8400
+P 3150 7950
+F 0 "#PWR0106" H 3150 7700 50  0001 C CNN
+F 1 "GND" H 3155 7777 50  0000 C CNN
+F 2 "" H 3150 7950 50  0000 C CNN
+F 3 "" H 3150 7950 50  0000 C CNN
+	1    3150 7950
 	1    0    0    -1  
 $EndComp
+Wire Notes Line
+	2700 5550 5300 5550
+Wire Notes Line
+	5300 5550 5300 8250
+Wire Notes Line
+	5300 8250 2700 8250
+Wire Notes Line
+	2700 8250 2700 5550
+Wire Notes Line
+	2700 5350 2700 2550
+Wire Notes Line
+	2700 2550 5300 2550
+Wire Notes Line
+	5300 2550 5300 5350
+Wire Notes Line
+	2700 5350 5300 5350
+Wire Wire Line
+	3300 3500 3350 3500
+Wire Wire Line
+	3300 3600 3350 3600
+Wire Wire Line
+	2850 3350 2850 3300
+Wire Wire Line
+	2850 3300 3350 3300
+Wire Wire Line
+	3300 4100 3350 4100
+Wire Wire Line
+	3300 4200 3350 4200
+Wire Wire Line
+	3300 4300 3350 4300
+Text Notes 2750 2500 0    50   ~ 0
+EDU-CIAA Conector A\n
+Text Notes 2750 5500 0    50   ~ 0
+EDU-CIAA Conector B
+Wire Notes Line
+	2500 8450 2500 2300
+Wire Notes Line
+	2500 2300 5500 2300
+Wire Notes Line
+	5500 2300 5500 8450
+Wire Notes Line
+	2500 8450 5500 8450
+Text Notes 2550 2250 0    50   ~ 0
+Conectores EDU-CIAA
 $EndSCHEMATC

@@ -6,7 +6,7 @@ $Descr A4 8268 11693 portrait
 encoding utf-8
 Sheet 4 8
 Title "Interfaz sensor RPM"
-Date "2021-12-18"
+Date "2021-12-19"
 Rev "1.0"
 Comp "Autor: Ignacio Moya"
 Comment1 "Especialización en Sistemas Embebidos 2021 - FIUBA"
@@ -20,7 +20,7 @@ U 1 1 61B5B6E4
 P 4050 5550
 F 0 "U6" H 4050 6215 50  0000 C CNN
 F 1 "MAX9924" H 4050 6124 50  0000 C CNN
-F 2 "" H 4050 5550 50  0001 C CNN
+F 2 "umax:UMAX10" H 4050 5550 50  0001 C CNN
 F 3 "" H 4050 5550 50  0001 C CNN
 	1    4050 5550
 	-1   0    0    -1  
@@ -31,7 +31,7 @@ U 1 1 61B5B7AB
 P 5150 5050
 F 0 "R7" V 5050 5050 50  0000 C CNN
 F 1 "10k" V 5250 5050 50  0000 C CNN
-F 2 "" V 5190 5040 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5190 5040 50  0001 C CNN
 F 3 "~" H 5150 5050 50  0001 C CNN
 	1    5150 5050
 	0    1    1    0   
@@ -42,7 +42,7 @@ U 1 1 61B5B80C
 P 5150 5450
 F 0 "R8" V 5050 5450 50  0000 C CNN
 F 1 "10k" V 5250 5450 50  0000 C CNN
-F 2 "" V 5190 5440 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5190 5440 50  0001 C CNN
 F 3 "~" H 5150 5450 50  0001 C CNN
 	1    5150 5450
 	0    1    1    0   
@@ -53,7 +53,7 @@ U 1 1 61B5B826
 P 3100 5400
 F 0 "R6" H 3168 5446 50  0000 L CNN
 F 1 "10k" H 3168 5355 50  0000 L CNN
-F 2 "" V 3140 5390 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3140 5390 50  0001 C CNN
 F 3 "~" H 3100 5400 50  0001 C CNN
 	1    3100 5400
 	1    0    0    -1  
@@ -64,7 +64,7 @@ U 1 1 61B5B942
 P 4750 5250
 F 0 "C10" H 4842 5296 50  0000 L CNN
 F 1 "1nF" H 4842 5205 50  0000 L CNN
-F 2 "" H 4750 5250 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4750 5250 50  0001 C CNN
 F 3 "~" H 4750 5250 50  0001 C CNN
 	1    4750 5250
 	1    0    0    -1  
@@ -149,8 +149,8 @@ L Connector:Screw_Terminal_01x03 J5
 U 1 1 61B5E81F
 P 5850 5250
 F 0 "J5" H 5930 5246 50  0000 L CNN
-F 1 "Screw_Terminal_01x03" H 5930 5201 50  0001 L CNN
-F 2 "" H 5850 5250 50  0001 C CNN
+F 1 "Sens. Inductivo" H 5500 5500 50  0000 L CNN
+F 2 "TerminalBlock:TerminalBlock_bornier-3_P5.08mm" H 5850 5250 50  0001 C CNN
 F 3 "~" H 5850 5250 50  0001 C CNN
 	1    5850 5250
 	1    0    0    -1  
@@ -193,7 +193,35 @@ Wire Notes Line
 Text Notes 2300 4550 0    50   ~ 0
 Interfaz sensor inductivo con EDU-CIAA
 Text Notes 2350 7150 0    50   ~ 0
--  El integrado MAX9924 permite ser operado en hasta cuatro modos de\noperación diferentes. En este esquemático, el módo de operación sele-\nccionado es el A2. Esto quiere decir que tiene activadas la detección\npor cero, detección de pico adaptativa y utiliza la referencia de voltaje\ninterna. Según la hoja de datos, este modo de operación es el más\nrobusto y sencillo ya que reduce la cantidad de componentes externos.
+-  El integrado MAX9924 permite ser configurado en hasta cuatro modos de\noperación diferentes. En este esquemático, el módo de operación sele-\nccionado es el A2. Esto quiere decir que tiene activadas la detección\npor cero, detección de pico adaptativa y utiliza la referencia de voltaje\ninterna. Según la hoja de datos, este modo de operación es el más\nrobusto y sencillo ya que reduce la cantidad de componentes externos.
 NoConn ~ 4550 5550
 NoConn ~ 3550 5550
+$Comp
+L Device:C_Small C16
+U 1 1 61C1397B
+P 2650 5300
+F 0 "C16" H 2742 5346 50  0000 L CNN
+F 1 "0.01uF" H 2742 5255 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2650 5300 50  0001 C CNN
+F 3 "~" H 2650 5300 50  0001 C CNN
+	1    2650 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L basico-rescue:GND #PWR0109
+U 1 1 61C13D81
+P 2650 5450
+F 0 "#PWR0109" H 2650 5200 50  0001 C CNN
+F 1 "GND" H 2655 5277 50  0000 C CNN
+F 2 "" H 2650 5450 50  0000 C CNN
+F 3 "" H 2650 5450 50  0000 C CNN
+	1    2650 5450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2650 5450 2650 5400
+Wire Wire Line
+	2650 5200 2650 5150
+Wire Wire Line
+	2650 5150 3100 5150
 $EndSCHEMATC

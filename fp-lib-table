@@ -1,4 +1,5 @@
 (fp_lib_table
   (lib (name footprint)(type KiCad)(uri "$(KIPRJMOD)/footprint.pretty")(options "")(descr ""))
   (lib (name hm10)(type KiCad)(uri ${KIPRJMOD}/hm10-kicad-master/hm10.pretty)(options "")(descr ""))
+  (lib (name umax)(type KiCad)(uri ${KIPRJMOD}/umax.pretty)(options "")(descr ""))
 )

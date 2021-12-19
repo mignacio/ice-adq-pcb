@@ -6,7 +6,7 @@ $Descr A4 8268 11693 portrait
 encoding utf-8
 Sheet 6 8
 Title ""
-Date "2021-12-18"
+Date "2021-12-19"
 Rev "1.0"
 Comp "Autor: Ignacio Moya"
 Comment1 "Especialización en Sistemas Embebidos 2021 - FIUBA"
@@ -28,12 +28,12 @@ $EndComp
 $Comp
 L power:+3.3V #PWR039
 U 1 1 61B55F54
-P 4150 5300
-F 0 "#PWR039" H 4150 5150 50  0001 C CNN
-F 1 "+3.3V" H 4165 5473 50  0000 C CNN
-F 2 "" H 4150 5300 50  0001 C CNN
-F 3 "" H 4150 5300 50  0001 C CNN
-	1    4150 5300
+P 4150 5200
+F 0 "#PWR039" H 4150 5050 50  0001 C CNN
+F 1 "+3.3V" H 4165 5373 50  0000 C CNN
+F 2 "" H 4150 5200 50  0001 C CNN
+F 3 "" H 4150 5200 50  0001 C CNN
+	1    4150 5200
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -69,9 +69,9 @@ $Comp
 L Device:C_Small C13
 U 1 1 61BB32CB
 P 4000 5450
-F 0 "C13" V 3863 5450 50  0000 C CNN
-F 1 "C_Small" H 4092 5405 50  0001 L CNN
-F 2 "" H 4000 5450 50  0001 C CNN
+F 0 "C13" V 3800 5450 50  0000 C CNN
+F 1 "0.01uF" V 3900 5300 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4000 5450 50  0001 C CNN
 F 3 "~" H 4000 5450 50  0001 C CNN
 	1    4000 5450
 	0    1    1    0   
@@ -95,8 +95,6 @@ Wire Wire Line
 	4100 5450 4150 5450
 Wire Wire Line
 	4150 5450 4150 5650
-Wire Wire Line
-	4150 5300 4150 5450
 Connection ~ 4150 5450
 Wire Notes Line
 	3100 4900 5400 4900
@@ -108,4 +106,6 @@ Wire Notes Line
 	3100 6600 3100 4900
 Text Notes 3100 4850 0    50   ~ 0
 Módulo Bluetooth HM-10
+Wire Wire Line
+	4150 5200 4150 5450
 $EndSCHEMATC
