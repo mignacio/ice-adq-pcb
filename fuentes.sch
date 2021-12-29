@@ -31,7 +31,7 @@ U 1 1 61C4746F
 P 5150 3700
 F 0 "U9" H 5150 3942 50  0000 C CNN
 F 1 "L7805" H 5150 3851 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:TO-263-3_TabPin4" H 5175 3550 50  0001 L CIN
+F 2 "Package_TO_SOT_SMD:SOT-223" H 5175 3550 50  0001 L CIN
 F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf" H 5150 3650 50  0001 C CNN
 	1    5150 3700
 	1    0    0    -1  

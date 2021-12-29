@@ -15,19 +15,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L basico-rescue:+3.3V #PWR?
-U 1 1 61C156CC
-P 3150 2800
-AR Path="/61C156CC" Ref="#PWR?"  Part="1" 
-AR Path="/61C15501/61C156CC" Ref="#PWR0101"  Part="1" 
-F 0 "#PWR0101" H 3150 2760 30  0001 C CNN
-F 1 "+3.3V" H 3150 2910 30  0000 C CNN
-F 2 "" H 3150 2800 60  0000 C CNN
-F 3 "" H 3150 2800 60  0000 C CNN
-	1    3150 2800
-	1    0    0    -1  
-$EndComp
-$Comp
 L basico-rescue:+5V #PWR?
 U 1 1 61C156D2
 P 4750 2850
@@ -362,10 +349,6 @@ Wire Wire Line
 Wire Wire Line
 	4750 3000 4750 2850
 Wire Wire Line
-	3150 2800 3150 3000
-Wire Wire Line
-	3150 3000 3350 3000
-Wire Wire Line
 	4550 5900 4750 5900
 Wire Wire Line
 	4750 5900 4750 5750
@@ -425,4 +408,5 @@ Conectores EDU-CIAA
 Wire Wire Line
 	3300 3400 3350 3400
 NoConn ~ 3350 3600
+NoConn ~ 3350 3000
 $EndSCHEMATC

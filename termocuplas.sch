@@ -121,11 +121,7 @@ Wire Wire Line
 Wire Wire Line
 	3700 6850 3700 6950
 Wire Wire Line
-	3700 6950 4650 6950
-Wire Wire Line
-	4650 6950 4650 6850
-Wire Wire Line
-	4200 7050 4200 6850
+	3700 6950 4200 6950
 $Comp
 L power:+3V3 #PWR013
 U 1 1 601FFCA9
@@ -140,11 +136,9 @@ $EndComp
 Wire Wire Line
 	3700 6650 3700 6550
 Wire Wire Line
-	3700 6550 4650 6550
-Wire Wire Line
 	4650 6550 4650 6650
 Wire Wire Line
-	4200 6650 4200 6500
+	4200 6650 4200 6550
 Wire Wire Line
 	4800 3700 4850 3700
 Wire Wire Line
@@ -289,4 +283,20 @@ Wire Wire Line
 	3500 3850 4100 3850
 Wire Wire Line
 	3500 3750 4100 3750
+Wire Wire Line
+	4650 6550 4200 6550
+Connection ~ 4200 6550
+Wire Wire Line
+	4200 6550 4200 6500
+Wire Wire Line
+	3700 6550 4200 6550
+Wire Wire Line
+	4200 6850 4200 6950
+Connection ~ 4200 6950
+Wire Wire Line
+	4200 6950 4650 6950
+Wire Wire Line
+	4650 6850 4650 6950
+Wire Wire Line
+	4200 6950 4200 7050
 $EndSCHEMATC
