@@ -17,13 +17,13 @@ $EndDescr
 $Comp
 L Connector:Screw_Terminal_01x02 J7
 U 1 1 61C4739C
-P 2950 4200
-F 0 "J7" H 2870 3875 50  0000 C CNN
-F 1 "BATT" H 2870 3966 50  0000 C CNN
-F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 2950 4200 50  0001 C CNN
-F 3 "~" H 2950 4200 50  0001 C CNN
-	1    2950 4200
-	-1   0    0    1   
+P 2950 4100
+F 0 "J7" H 2900 4300 50  0000 C CNN
+F 1 "BATT" H 2900 4200 50  0000 C CNN
+F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 2950 4100 50  0001 C CNN
+F 3 "~" H 2950 4100 50  0001 C CNN
+	1    2950 4100
+	-1   0    0    -1  
 $EndComp
 $Comp
 L Regulator_Linear:L7805 U9
@@ -31,7 +31,7 @@ U 1 1 61C4746F
 P 4500 4100
 F 0 "U9" H 4500 4342 50  0000 C CNN
 F 1 "L7805" H 4500 4251 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-223" H 4525 3950 50  0001 L CIN
+F 2 "Package_TO_SOT_SMD:TO-263-3_TabPin2" H 4525 3950 50  0001 L CIN
 F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf" H 4500 4050 50  0001 C CNN
 	1    4500 4100
 	1    0    0    -1  
