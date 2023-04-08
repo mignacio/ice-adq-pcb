@@ -1,4 +1,4 @@
-(kicad_sch (version 20211123) (generator eeschema)
+(kicad_sch (version 20230121) (generator eeschema)
 
   (uuid fa918b6d-f6cf-4471-be3b-4ff713f55a2e)
 
@@ -14,16 +14,16 @@
 
   (lib_symbols
     (symbol "basico-rescue:Logo_Poncho" (pin_numbers hide) (pin_names (offset 0) hide) (in_bom yes) (on_board yes)
-      (property "Reference" "#G" (id 0) (at -1.27 -10.16 0)
+      (property "Reference" "#G" (at -1.27 -10.16 0)
         (effects (font (size 1.524 1.524)) hide)
       )
-      (property "Value" "Logo_Poncho" (id 1) (at 5.08 -10.16 0)
+      (property "Value" "Logo_Poncho" (at 5.08 -10.16 0)
         (effects (font (size 1.524 1.524)) hide)
       )
-      (property "Footprint" "" (id 2) (at 0 0 0)
+      (property "Footprint" "" (at 0 0 0)
         (effects (font (size 1.524 1.524)))
       )
-      (property "Datasheet" "" (id 3) (at 0 0 0)
+      (property "Datasheet" "" (at 0 0 0)
         (effects (font (size 1.524 1.524)))
       )
       (symbol "Logo_Poncho_0_0"
@@ -53,7 +53,7 @@
             (xy 0.9652 0.5842)
             (xy 0.9652 0.5842)
           )
-          (stroke (width 0.0254) (type default) (color 0 0 0 0))
+          (stroke (width 0.0254) (type default))
           (fill (type outline))
         )
         (polyline
@@ -86,7 +86,7 @@
             (xy 0 0.3556)
             (xy 0 0.3556)
           )
-          (stroke (width 0.0254) (type default) (color 0 0 0 0))
+          (stroke (width 0.0254) (type default))
           (fill (type outline))
         )
         (polyline
@@ -122,7 +122,7 @@
             (xy -1.0668 0.254)
             (xy -1.0668 0.254)
           )
-          (stroke (width 0.0254) (type default) (color 0 0 0 0))
+          (stroke (width 0.0254) (type default))
           (fill (type outline))
         )
         (polyline
@@ -158,7 +158,7 @@
             (xy -0.508 -3.5306)
             (xy -0.508 -3.5306)
           )
-          (stroke (width 0.0254) (type default) (color 0 0 0 0))
+          (stroke (width 0.0254) (type default))
           (fill (type outline))
         )
         (polyline
@@ -194,7 +194,7 @@
             (xy 3.048 0.254)
             (xy 3.048 0.254)
           )
-          (stroke (width 0.0254) (type default) (color 0 0 0 0))
+          (stroke (width 0.0254) (type default))
           (fill (type outline))
         )
         (polyline
@@ -231,7 +231,7 @@
             (xy 1.905 -2.159)
             (xy 1.905 -2.159)
           )
-          (stroke (width 0.0254) (type default) (color 0 0 0 0))
+          (stroke (width 0.0254) (type default))
           (fill (type outline))
         )
         (polyline
@@ -270,7 +270,7 @@
             (xy -1.9812 0.6096)
             (xy -1.9812 0.6096)
           )
-          (stroke (width 0.0254) (type default) (color 0 0 0 0))
+          (stroke (width 0.0254) (type default))
           (fill (type outline))
         )
         (polyline
@@ -310,7 +310,7 @@
             (xy 0.7366 -2.3876)
             (xy 0.7366 -2.3876)
           )
-          (stroke (width 0.0254) (type default) (color 0 0 0 0))
+          (stroke (width 0.0254) (type default))
           (fill (type outline))
         )
         (polyline
@@ -351,7 +351,7 @@
             (xy -0.5842 -1.8288)
             (xy -0.5842 -1.8288)
           )
-          (stroke (width 0.0254) (type default) (color 0 0 0 0))
+          (stroke (width 0.0254) (type default))
           (fill (type outline))
         )
         (polyline
@@ -392,7 +392,7 @@
             (xy 1.9812 0.254)
             (xy 1.9812 0.254)
           )
-          (stroke (width 0.0254) (type default) (color 0 0 0 0))
+          (stroke (width 0.0254) (type default))
           (fill (type outline))
         )
         (polyline
@@ -455,7 +455,7 @@
             (xy 1.9304 -4.699)
             (xy 1.9304 -4.699)
           )
-          (stroke (width 0.0254) (type default) (color 0 0 0 0))
+          (stroke (width 0.0254) (type default))
           (fill (type outline))
         )
         (polyline
@@ -519,7 +519,7 @@
             (xy 2.9718 -1.0668)
             (xy 2.9718 -1.0668)
           )
-          (stroke (width 0.0254) (type default) (color 0 0 0 0))
+          (stroke (width 0.0254) (type default))
           (fill (type outline))
         )
         (polyline
@@ -811,7 +811,7 @@
             (xy 8.255 1.4986)
             (xy 8.255 1.4986)
           )
-          (stroke (width 0.0254) (type default) (color 0 0 0 0))
+          (stroke (width 0.0254) (type default))
           (fill (type outline))
         )
       )
@@ -823,16 +823,16 @@
       )
     )
     (symbol "basico-rescue:OSHWA" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
-      (property "Reference" "#G" (id 0) (at -0.762 10.16 0)
+      (property "Reference" "#G" (at -0.762 10.16 0)
         (effects (font (size 1.524 1.524)) hide)
       )
-      (property "Value" "OSHWA" (id 1) (at 0 7.6962 0)
+      (property "Value" "OSHWA" (at 0 7.6962 0)
         (effects (font (size 1.524 1.524)) hide)
       )
-      (property "Footprint" "" (id 2) (at 0 0 0)
+      (property "Footprint" "" (at 0 0 0)
         (effects (font (size 1.524 1.524)))
       )
-      (property "Datasheet" "" (id 3) (at 0 0 0)
+      (property "Datasheet" "" (at 0 0 0)
         (effects (font (size 1.524 1.524)))
       )
       (symbol "OSHWA_0_0"
@@ -1128,7 +1128,7 @@
             (xy 5.7912 2.667)
             (xy 5.7912 2.667)
           )
-          (stroke (width 0.0254) (type default) (color 0 0 0 0))
+          (stroke (width 0.0254) (type default))
           (fill (type outline))
         )
         (text "hardware" (at -0.0254 -6.858 0)
@@ -1146,51 +1146,51 @@
 
 
   (wire (pts (xy 121.92 99.06) (xy 142.24 99.06))
-    (stroke (width 0) (type default) (color 0 0 0 0))
+    (stroke (width 0) (type default))
     (uuid 1f9ae101-c652-4998-a503-17aedf3d5746)
   )
   (wire (pts (xy 195.58 100.33) (xy 171.45 100.33))
-    (stroke (width 0) (type default) (color 0 0 0 0))
+    (stroke (width 0) (type default))
     (uuid 29bb7297-26fb-4776-9266-2355d022bab0)
   )
   (wire (pts (xy 195.58 105.41) (xy 171.45 105.41))
-    (stroke (width 0) (type default) (color 0 0 0 0))
+    (stroke (width 0) (type default))
     (uuid 36d783e7-096f-4c97-9672-7e08c083b87b)
   )
   (wire (pts (xy 171.45 83.82) (xy 195.58 83.82))
-    (stroke (width 0) (type default) (color 0 0 0 0))
+    (stroke (width 0) (type default))
     (uuid 4c843bdb-6c9e-40dd-85e2-0567846e18ba)
   )
   (wire (pts (xy 121.92 87.63) (xy 142.24 87.63))
-    (stroke (width 0) (type default) (color 0 0 0 0))
+    (stroke (width 0) (type default))
     (uuid 5c30b9b4-3014-4f50-9329-27a539b67e01)
   )
   (wire (pts (xy 195.58 81.28) (xy 171.45 81.28))
-    (stroke (width 0) (type default) (color 0 0 0 0))
+    (stroke (width 0) (type default))
     (uuid 6ffdf05e-e119-49f9-85e9-13e4901df42a)
   )
   (wire (pts (xy 195.58 86.36) (xy 171.45 86.36))
-    (stroke (width 0) (type default) (color 0 0 0 0))
+    (stroke (width 0) (type default))
     (uuid 72b36951-3ec7-4569-9c88-cf9b4afe1cae)
   )
   (wire (pts (xy 121.92 76.2) (xy 142.24 76.2))
-    (stroke (width 0) (type default) (color 0 0 0 0))
+    (stroke (width 0) (type default))
     (uuid 9a2d648d-863a-4b7b-80f9-d537185c212b)
   )
   (wire (pts (xy 171.45 78.74) (xy 195.58 78.74))
-    (stroke (width 0) (type default) (color 0 0 0 0))
+    (stroke (width 0) (type default))
     (uuid c4cab9c5-d6e5-4660-b910-603a51b56783)
   )
   (wire (pts (xy 171.45 102.87) (xy 195.58 102.87))
-    (stroke (width 0) (type default) (color 0 0 0 0))
+    (stroke (width 0) (type default))
     (uuid cb6062da-8dcd-4826-92fd-4071e9e97213)
   )
   (wire (pts (xy 121.92 110.49) (xy 142.24 110.49))
-    (stroke (width 0) (type default) (color 0 0 0 0))
+    (stroke (width 0) (type default))
     (uuid e5b328f6-dc69-4905-ae98-2dc3200a51d6)
   )
   (wire (pts (xy 171.45 88.9) (xy 195.58 88.9))
-    (stroke (width 0) (type default) (color 0 0 0 0))
+    (stroke (width 0) (type default))
     (uuid eb8d02e9-145c-465d-b6a8-bae84d47a94b)
   )
 
@@ -1198,55 +1198,64 @@
     (effects (font (size 2.9972 2.9972) (thickness 0.5994) bold) (justify left bottom))
     (uuid 1171ce37-6ad7-4662-bb68-5592c945ebf3)
   )
-  (text "Luego de abrir el nuevo proyecto:\n1)Editar datos del rótulo.\n2)Editar los archivos del subdirectorio \"doc\".\n2.1) Agregarse en el archivo de licencia.\n2.2) Colocar info mínima del Poncho en el LEEME.txt\n2.3) Colocar info mínima en el CAMBIOS.txt"
-    (at 184.15 162.56 0)
-    (effects (font (size 1.524 1.524)) (justify left bottom))
-    (uuid d4c9471f-7503-4339-928c-d1abae1eede6)
-  )
 
   (symbol (lib_id "basico-rescue:OSHWA") (at 274.32 153.67 0) (unit 1)
-    (in_bom yes) (on_board yes)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000560a0a28)
-    (property "Reference" "#G102" (id 0) (at 273.558 143.51 0)
+    (property "Reference" "#G102" (at 273.558 143.51 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (property "Value" "OSHWA" (id 1) (at 274.32 145.9738 0)
+    (property "Value" "OSHWA" (at 274.32 145.9738 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (property "Footprint" "Poncho_Esqueleto:Logo_OSHWA" (id 2) (at 274.32 153.67 0)
+    (property "Footprint" "Poncho_Esqueleto:Logo_OSHWA" (at 274.32 153.67 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (property "Datasheet" "" (id 3) (at 274.32 153.67 0)
+    (property "Datasheet" "" (at 274.32 153.67 0)
       (effects (font (size 1.524 1.524)))
+    )
+    (instances
+      (project "ice-adq"
+        (path "/fa918b6d-f6cf-4471-be3b-4ff713f55a2e"
+          (reference "#G102") (unit 1)
+        )
+      )
     )
   )
 
   (symbol (lib_id "basico-rescue:Logo_Poncho") (at 257.81 152.4 0) (unit 1)
-    (in_bom yes) (on_board yes)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000560cffc0)
-    (property "Reference" "#G101" (id 0) (at 256.54 162.56 0)
+    (property "Reference" "#G101" (at 256.54 162.56 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (property "Value" "Logo_Poncho" (id 1) (at 262.89 162.56 0)
+    (property "Value" "Logo_Poncho" (at 262.89 162.56 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (property "Footprint" "Poncho_Esqueleto:Logo_Poncho" (id 2) (at 257.81 152.4 0)
+    (property "Footprint" "Poncho_Esqueleto:Logo_Poncho" (at 257.81 152.4 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (property "Datasheet" "" (id 3) (at 257.81 152.4 0)
+    (property "Datasheet" "" (at 257.81 152.4 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (pin "~" (uuid 82048b9c-3a0f-4ed2-a48a-11a7f37c64d8))
+    (instances
+      (project "ice-adq"
+        (path "/fa918b6d-f6cf-4471-be3b-4ff713f55a2e"
+          (reference "#G101") (unit 1)
+        )
+      )
+    )
   )
 
   (sheet (at 195.58 76.2) (size 24.13 15.24) (fields_autoplaced)
-    (stroke (width 0) (type solid) (color 0 0 0 0))
+    (stroke (width 0) (type solid))
     (fill (color 0 0 0 0.0000))
     (uuid 00000000-0000-0000-0000-00005fff8913)
-    (property "Sheet name" "termocuplas" (id 0) (at 195.58 75.4884 0)
+    (property "Sheetname" "termocuplas" (at 195.58 75.4884 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheet file" "termocuplas.kicad_sch" (id 1) (at 195.58 92.0246 0)
+    (property "Sheetfile" "termocuplas.kicad_sch" (at 195.58 92.0246 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (pin "SO" output (at 195.58 78.74 180)
@@ -1269,64 +1278,84 @@
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid 99dfa524-0366-4808-b4e8-328fc38e8656)
     )
+    (instances
+      (project "ice-adq"
+        (path "/fa918b6d-f6cf-4471-be3b-4ff713f55a2e" (page "7"))
+      )
+    )
   )
 
   (sheet (at 97.79 95.25) (size 24.13 7.62) (fields_autoplaced)
-    (stroke (width 0) (type solid) (color 0 0 0 0))
+    (stroke (width 0) (type solid))
     (fill (color 0 0 0 0.0000))
     (uuid 00000000-0000-0000-0000-00005fffa450)
-    (property "Sheet name" "oxigeno" (id 0) (at 97.79 94.5384 0)
+    (property "Sheetname" "oxigeno" (at 97.79 94.5384 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheet file" "oxigeno.kicad_sch" (id 1) (at 97.79 103.4546 0)
+    (property "Sheetfile" "oxigeno.kicad_sch" (at 97.79 103.4546 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (pin "O2_OUT" input (at 121.92 99.06 0)
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid 28e37b45-f843-47c2-85c9-ca19f5430ece)
     )
+    (instances
+      (project "ice-adq"
+        (path "/fa918b6d-f6cf-4471-be3b-4ff713f55a2e" (page "4"))
+      )
+    )
   )
 
   (sheet (at 97.79 72.39) (size 24.13 7.62) (fields_autoplaced)
-    (stroke (width 0) (type solid) (color 0 0 0 0))
+    (stroke (width 0) (type solid))
     (fill (color 0 0 0 0.0000))
     (uuid 00000000-0000-0000-0000-00005fffa455)
-    (property "Sheet name" "rpm" (id 0) (at 97.79 71.6784 0)
+    (property "Sheetname" "rpm" (at 97.79 71.6784 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheet file" "rpm.kicad_sch" (id 1) (at 97.79 80.5946 0)
+    (property "Sheetfile" "rpm.kicad_sch" (at 97.79 80.5946 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (pin "RPM_PULSE" output (at 121.92 76.2 0)
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid 9dcdc92b-2219-4a4a-8954-45f02cc3ab25)
     )
+    (instances
+      (project "ice-adq"
+        (path "/fa918b6d-f6cf-4471-be3b-4ff713f55a2e" (page "2"))
+      )
+    )
   )
 
   (sheet (at 97.79 83.82) (size 24.13 7.62) (fields_autoplaced)
-    (stroke (width 0) (type solid) (color 0 0 0 0))
+    (stroke (width 0) (type solid))
     (fill (color 0 0 0 0.0000))
     (uuid 00000000-0000-0000-0000-00005fffa45a)
-    (property "Sheet name" "presion" (id 0) (at 97.79 83.1084 0)
+    (property "Sheetname" "presion" (at 97.79 83.1084 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheet file" "presion.kicad_sch" (id 1) (at 97.79 92.0246 0)
+    (property "Sheetfile" "presion.kicad_sch" (at 97.79 92.0246 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (pin "PRES_OUT" input (at 121.92 87.63 0)
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid 92035a88-6c95-4a61-bd8a-cb8dd9e5018a)
     )
+    (instances
+      (project "ice-adq"
+        (path "/fa918b6d-f6cf-4471-be3b-4ff713f55a2e" (page "3"))
+      )
+    )
   )
 
   (sheet (at 195.58 96.52) (size 24.13 12.7) (fields_autoplaced)
-    (stroke (width 0) (type solid) (color 0 0 0 0))
+    (stroke (width 0) (type solid))
     (fill (color 0 0 0 0.0000))
     (uuid 00000000-0000-0000-0000-00005fffa45f)
-    (property "Sheet name" "comunicaciones" (id 0) (at 195.58 95.8084 0)
+    (property "Sheetname" "comunicaciones" (at 195.58 95.8084 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheet file" "comunicaciones.kicad_sch" (id 1) (at 195.58 109.8046 0)
+    (property "Sheetfile" "comunicaciones.kicad_sch" (at 195.58 109.8046 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (pin "BT_TX" output (at 195.58 100.33 180)
@@ -1341,16 +1370,21 @@
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid 935057d5-6882-4c15-9a35-54677912ba12)
     )
+    (instances
+      (project "ice-adq"
+        (path "/fa918b6d-f6cf-4471-be3b-4ff713f55a2e" (page "8"))
+      )
+    )
   )
 
   (sheet (at 142.24 72.39) (size 29.21 41.91) (fields_autoplaced)
-    (stroke (width 0) (type solid) (color 0 0 0 0))
+    (stroke (width 0) (type solid))
     (fill (color 0 0 0 0.0000))
     (uuid 00000000-0000-0000-0000-000061c15501)
-    (property "Sheet name" "edu-ciaa" (id 0) (at 142.24 71.6784 0)
+    (property "Sheetname" "edu-ciaa" (at 142.24 71.6784 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheet file" "edu-ciaa.kicad_sch" (id 1) (at 142.24 114.8846 0)
+    (property "Sheetfile" "edu-ciaa.kicad_sch" (at 142.24 114.8846 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (pin "SO" input (at 171.45 78.74 0)
@@ -1401,341 +1435,35 @@
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid 88cb65f4-7e9e-44eb-8692-3b6e2e788a94)
     )
+    (instances
+      (project "ice-adq"
+        (path "/fa918b6d-f6cf-4471-be3b-4ff713f55a2e" (page "6"))
+      )
+    )
   )
 
   (sheet (at 97.79 106.68) (size 24.13 7.62) (fields_autoplaced)
-    (stroke (width 0) (type solid) (color 0 0 0 0))
+    (stroke (width 0) (type solid))
     (fill (color 0 0 0 0.0000))
     (uuid 00000000-0000-0000-0000-000061c1a3cd)
-    (property "Sheet name" "fuentes" (id 0) (at 97.79 105.9684 0)
+    (property "Sheetname" "fuentes" (at 97.79 105.9684 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheet file" "fuentes.kicad_sch" (id 1) (at 97.79 114.8846 0)
+    (property "Sheetfile" "fuentes.kicad_sch" (at 97.79 114.8846 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (pin "V_BATT_OUT" output (at 121.92 110.49 0)
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid cc48dd41-7768-48d3-b096-2c4cc2126c9d)
     )
+    (instances
+      (project "ice-adq"
+        (path "/fa918b6d-f6cf-4471-be3b-4ff713f55a2e" (page "5"))
+      )
+    )
   )
 
   (sheet_instances
     (path "/" (page "1"))
-    (path "/00000000-0000-0000-0000-00005fffa455" (page "2"))
-    (path "/00000000-0000-0000-0000-00005fffa45a" (page "3"))
-    (path "/00000000-0000-0000-0000-00005fffa450" (page "4"))
-    (path "/00000000-0000-0000-0000-000061c1a3cd" (page "5"))
-    (path "/00000000-0000-0000-0000-000061c15501" (page "6"))
-    (path "/00000000-0000-0000-0000-00005fff8913" (page "7"))
-    (path "/00000000-0000-0000-0000-00005fffa45f" (page "8"))
-  )
-
-  (symbol_instances
-    (path "/00000000-0000-0000-0000-000061c15501/00000000-0000-0000-0000-000061c156d8"
-      (reference "#FLG0101") (unit 1) (value "PWR_FLAG") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061c1a3cd/00000000-0000-0000-0000-000061c64c23"
-      (reference "#FLG0102") (unit 1) (value "PWR_FLAG") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-00005fffa450/00000000-0000-0000-0000-000061bf3c89"
-      (reference "#FLG0103") (unit 1) (value "PWR_FLAG") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-0000560cffc0"
-      (reference "#G101") (unit 1) (value "Logo_Poncho") (footprint "Poncho_Esqueleto:Logo_Poncho")
-    )
-    (path "/00000000-0000-0000-0000-0000560a0a28"
-      (reference "#G102") (unit 1) (value "OSHWA") (footprint "Poncho_Esqueleto:Logo_OSHWA")
-    )
-    (path "/00000000-0000-0000-0000-00005fff8913/00000000-0000-0000-0000-0000601feeb4"
-      (reference "#PWR03") (unit 1) (value "+3V3") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-00005fff8913/00000000-0000-0000-0000-0000601fef21"
-      (reference "#PWR04") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-00005fff8913/00000000-0000-0000-0000-0000601ffca9"
-      (reference "#PWR013") (unit 1) (value "+3V3") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-00005fff8913/00000000-0000-0000-0000-0000601ff433"
-      (reference "#PWR018") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-00005fffa450/00000000-0000-0000-0000-00006027d8af"
-      (reference "#PWR019") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-00005fffa450/00000000-0000-0000-0000-00006027d930"
-      (reference "#PWR020") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-00005fffa450/00000000-0000-0000-0000-00006027d6de"
-      (reference "#PWR021") (unit 1) (value "+12V") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-00005fffa450/00000000-0000-0000-0000-00006027d73b"
-      (reference "#PWR022") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-00005fffa450/00000000-0000-0000-0000-00006027d709"
-      (reference "#PWR023") (unit 1) (value "+5V") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-00005fffa450/00000000-0000-0000-0000-00006027fc2c"
-      (reference "#PWR024") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-00005fffa450/00000000-0000-0000-0000-000061bfd69d"
-      (reference "#PWR026") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-00005fffa450/00000000-0000-0000-0000-000061c048cf"
-      (reference "#PWR027") (unit 1) (value "+5V") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-00005fffa450/00000000-0000-0000-0000-000061c04594"
-      (reference "#PWR028") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-00005fffa455/00000000-0000-0000-0000-000061b5bf66"
-      (reference "#PWR029") (unit 1) (value "+5V") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-00005fffa455/00000000-0000-0000-0000-000061b5bc42"
-      (reference "#PWR030") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-00005fffa455/00000000-0000-0000-0000-000061b5ee58"
-      (reference "#PWR031") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-00005fffa45a/00000000-0000-0000-0000-000061ba9321"
-      (reference "#PWR032") (unit 1) (value "+5V") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-00005fffa45a/00000000-0000-0000-0000-000061ba92e9"
-      (reference "#PWR033") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-00005fffa45a/00000000-0000-0000-0000-000061baa0a1"
-      (reference "#PWR034") (unit 1) (value "+5V") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-00005fffa45a/00000000-0000-0000-0000-000061ba95e0"
-      (reference "#PWR035") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-00005fffa45a/00000000-0000-0000-0000-000061bac0cb"
-      (reference "#PWR037") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-00005fffa45f/00000000-0000-0000-0000-000061b55f54"
-      (reference "#PWR039") (unit 1) (value "+3.3V") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-00005fffa45f/00000000-0000-0000-0000-000061b55f96"
-      (reference "#PWR040") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061c1a3cd/00000000-0000-0000-0000-000061d1e97f"
-      (reference "#PWR0101") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061c15501/00000000-0000-0000-0000-000061c156d2"
-      (reference "#PWR0102") (unit 1) (value "+5V") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061c15501/00000000-0000-0000-0000-000061c509d3"
-      (reference "#PWR0103") (unit 1) (value "+3.3V") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061c15501/00000000-0000-0000-0000-000061c156f8"
-      (reference "#PWR0104") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061c15501/00000000-0000-0000-0000-000061c509e2"
-      (reference "#PWR0105") (unit 1) (value "+5V") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061c15501/00000000-0000-0000-0000-000061c62e46"
-      (reference "#PWR0106") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061c1a3cd/00000000-0000-0000-0000-000061c6348e"
-      (reference "#PWR0107") (unit 1) (value "+12V") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061c1a3cd/00000000-0000-0000-0000-000061c634c3"
-      (reference "#PWR0108") (unit 1) (value "+5V") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-00005fffa455/00000000-0000-0000-0000-000061c13d81"
-      (reference "#PWR0109") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-00005fffa450/00000000-0000-0000-0000-000061bfa1fd"
-      (reference "#PWR0110") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061c1a3cd/00000000-0000-0000-0000-000061d29ecf"
-      (reference "#PWR0111") (unit 1) (value "+12V") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061c1a3cd/00000000-0000-0000-0000-000061d2a4ef"
-      (reference "#PWR0112") (unit 1) (value "+5V") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061c15501/00000000-0000-0000-0000-000061c508c2"
-      (reference "#PWR0113") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061c15501/00000000-0000-0000-0000-000061c508fa"
-      (reference "#PWR0114") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061c1a3cd/00000000-0000-0000-0000-000061c47690"
-      (reference "#PWR0115") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061c1a3cd/00000000-0000-0000-0000-000061d2ab55"
-      (reference "#PWR0116") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061c1a3cd/00000000-0000-0000-0000-000061d2f218"
-      (reference "#PWR0117") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061c1a3cd/00000000-0000-0000-0000-000061c47ba4"
-      (reference "#PWR0118") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-00005fff8913/00000000-0000-0000-0000-0000601fec0e"
-      (reference "C1") (unit 1) (value "0.01uF") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
-    )
-    (path "/00000000-0000-0000-0000-00005fff8913/00000000-0000-0000-0000-0000601fec5f"
-      (reference "C2") (unit 1) (value "0.01uF") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
-    )
-    (path "/00000000-0000-0000-0000-00005fff8913/00000000-0000-0000-0000-0000601fec9c"
-      (reference "C3") (unit 1) (value "0.01uF") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
-    )
-    (path "/00000000-0000-0000-0000-00005fffa450/00000000-0000-0000-0000-00006027d844"
-      (reference "C4") (unit 1) (value "0.01uF") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
-    )
-    (path "/00000000-0000-0000-0000-00005fffa450/00000000-0000-0000-0000-00006027e2f3"
-      (reference "C5") (unit 1) (value "0.01uF") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
-    )
-    (path "/00000000-0000-0000-0000-00005fffa450/00000000-0000-0000-0000-00006027d8d8"
-      (reference "C6") (unit 1) (value "0.01uF") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
-    )
-    (path "/00000000-0000-0000-0000-00005fffa450/00000000-0000-0000-0000-00006027e605"
-      (reference "C7") (unit 1) (value "0.01uF") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
-    )
-    (path "/00000000-0000-0000-0000-00005fffa450/00000000-0000-0000-0000-00006027fb98"
-      (reference "C8") (unit 1) (value "0.01uF") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
-    )
-    (path "/00000000-0000-0000-0000-00005fffa450/00000000-0000-0000-0000-000061c026b4"
-      (reference "C9") (unit 1) (value "0.01uF") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
-    )
-    (path "/00000000-0000-0000-0000-00005fffa455/00000000-0000-0000-0000-000061b5b942"
-      (reference "C10") (unit 1) (value "1nF") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
-    )
-    (path "/00000000-0000-0000-0000-00005fffa45a/00000000-0000-0000-0000-000061bac9ab"
-      (reference "C11") (unit 1) (value "0.01uF") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
-    )
-    (path "/00000000-0000-0000-0000-00005fffa45a/00000000-0000-0000-0000-000061bf050e"
-      (reference "C12") (unit 1) (value "0.01uF") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
-    )
-    (path "/00000000-0000-0000-0000-00005fffa45f/00000000-0000-0000-0000-000061bb32cb"
-      (reference "C13") (unit 1) (value "0.01uF") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
-    )
-    (path "/00000000-0000-0000-0000-000061c1a3cd/00000000-0000-0000-0000-000061c47546"
-      (reference "C14") (unit 1) (value "0.22uF") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
-    )
-    (path "/00000000-0000-0000-0000-000061c1a3cd/00000000-0000-0000-0000-000061c4762f"
-      (reference "C15") (unit 1) (value "0.01uF") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
-    )
-    (path "/00000000-0000-0000-0000-00005fffa455/00000000-0000-0000-0000-000061c1397b"
-      (reference "C16") (unit 1) (value "0.01uF") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
-    )
-    (path "/00000000-0000-0000-0000-000061c1a3cd/00000000-0000-0000-0000-000061d2aba4"
-      (reference "C17") (unit 1) (value "0.01uF") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
-    )
-    (path "/00000000-0000-0000-0000-000061c1a3cd/00000000-0000-0000-0000-000061d1dc53"
-      (reference "C18") (unit 1) (value "0.01uF") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
-    )
-    (path "/00000000-0000-0000-0000-00005fff8913/00000000-0000-0000-0000-0000601ff299"
-      (reference "J1") (unit 1) (value "T_Admisión") (footprint "TerminalBlock:TerminalBlock_bornier-2_P5.08mm")
-    )
-    (path "/00000000-0000-0000-0000-00005fff8913/00000000-0000-0000-0000-0000601ff30d"
-      (reference "J2") (unit 1) (value "T_Escape") (footprint "TerminalBlock:TerminalBlock_bornier-2_P5.08mm")
-    )
-    (path "/00000000-0000-0000-0000-00005fff8913/00000000-0000-0000-0000-0000601ff365"
-      (reference "J3") (unit 1) (value "T_Aceite") (footprint "TerminalBlock:TerminalBlock_bornier-2_P5.08mm")
-    )
-    (path "/00000000-0000-0000-0000-00005fffa450/00000000-0000-0000-0000-00006027f2a5"
-      (reference "J4") (unit 1) (value "Sonda Lambda") (footprint "TerminalBlock:TerminalBlock_bornier-2_P5.08mm")
-    )
-    (path "/00000000-0000-0000-0000-00005fffa455/00000000-0000-0000-0000-000061b5e81f"
-      (reference "J5") (unit 1) (value "Sens. Inductivo") (footprint "TerminalBlock:TerminalBlock_bornier-3_P5.08mm")
-    )
-    (path "/00000000-0000-0000-0000-00005fffa45a/00000000-0000-0000-0000-000061ba9298"
-      (reference "J6") (unit 1) (value "Sens. Presión") (footprint "TerminalBlock:TerminalBlock_bornier-2_P5.08mm")
-    )
-    (path "/00000000-0000-0000-0000-000061c1a3cd/00000000-0000-0000-0000-000061c4739c"
-      (reference "J7") (unit 1) (value "BATT") (footprint "TerminalBlock:TerminalBlock_bornier-2_P5.08mm")
-    )
-    (path "/00000000-0000-0000-0000-00005fffa450/00000000-0000-0000-0000-000061bf348e"
-      (reference "R1") (unit 1) (value "100ohm") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
-    )
-    (path "/00000000-0000-0000-0000-00005fffa450/00000000-0000-0000-0000-000061bf3601"
-      (reference "R2") (unit 1) (value "100ohm") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
-    )
-    (path "/00000000-0000-0000-0000-00005fffa450/00000000-0000-0000-0000-000061bf3746"
-      (reference "R3") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
-    )
-    (path "/00000000-0000-0000-0000-00005fffa450/00000000-0000-0000-0000-000061bfb6a9"
-      (reference "R4") (unit 1) (value "1.1k") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
-    )
-    (path "/00000000-0000-0000-0000-00005fffa450/00000000-0000-0000-0000-000061bfb624"
-      (reference "R5") (unit 1) (value "680") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
-    )
-    (path "/00000000-0000-0000-0000-00005fffa455/00000000-0000-0000-0000-000061b5b826"
-      (reference "R6") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
-    )
-    (path "/00000000-0000-0000-0000-00005fffa455/00000000-0000-0000-0000-000061b5b7ab"
-      (reference "R7") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
-    )
-    (path "/00000000-0000-0000-0000-00005fffa455/00000000-0000-0000-0000-000061b5b80c"
-      (reference "R8") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
-    )
-    (path "/00000000-0000-0000-0000-00005fffa45a/00000000-0000-0000-0000-000061ba97ca"
-      (reference "R9") (unit 1) (value "R_US") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
-    )
-    (path "/00000000-0000-0000-0000-00005fffa45a/00000000-0000-0000-0000-000061baa8fc"
-      (reference "R10") (unit 1) (value "R_US") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
-    )
-    (path "/00000000-0000-0000-0000-00005fffa45a/00000000-0000-0000-0000-000061bab2b4"
-      (reference "R11") (unit 1) (value "R_US") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
-    )
-    (path "/00000000-0000-0000-0000-000061c1a3cd/00000000-0000-0000-0000-000061d1dad9"
-      (reference "R12") (unit 1) (value "39k") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
-    )
-    (path "/00000000-0000-0000-0000-000061c1a3cd/00000000-0000-0000-0000-000061d1db29"
-      (reference "R13") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
-    )
-    (path "/00000000-0000-0000-0000-00005fff8913/00000000-0000-0000-0000-000061c66817"
-      (reference "U1") (unit 1) (value "MAX31855") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
-    )
-    (path "/00000000-0000-0000-0000-00005fff8913/00000000-0000-0000-0000-000061c66976"
-      (reference "U2") (unit 1) (value "MAX31855") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
-    )
-    (path "/00000000-0000-0000-0000-00005fff8913/00000000-0000-0000-0000-000061c66899"
-      (reference "U3") (unit 1) (value "MAX31855") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
-    )
-    (path "/00000000-0000-0000-0000-00005fffa450/00000000-0000-0000-0000-000061c66195"
-      (reference "U4") (unit 1) (value "LM9044") (footprint "Package_LCC:PLCC-20")
-    )
-    (path "/00000000-0000-0000-0000-00005fffa450/00000000-0000-0000-0000-000061bf972e"
-      (reference "U5") (unit 1) (value "LM358") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
-    )
-    (path "/00000000-0000-0000-0000-00005fffa450/00000000-0000-0000-0000-000061bf97ad"
-      (reference "U5") (unit 2) (value "LM358") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
-    )
-    (path "/00000000-0000-0000-0000-00005fffa450/00000000-0000-0000-0000-000061bf982a"
-      (reference "U5") (unit 3) (value "LM358") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
-    )
-    (path "/00000000-0000-0000-0000-00005fffa455/00000000-0000-0000-0000-000061b5b6e4"
-      (reference "U6") (unit 1) (value "MAX9924") (footprint "umax:UMAX10")
-    )
-    (path "/00000000-0000-0000-0000-00005fffa45a/00000000-0000-0000-0000-000061ba9104"
-      (reference "U7") (unit 1) (value "LM358") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
-    )
-    (path "/00000000-0000-0000-0000-00005fffa45a/00000000-0000-0000-0000-000061ba9141"
-      (reference "U7") (unit 2) (value "LM358") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
-    )
-    (path "/00000000-0000-0000-0000-00005fffa45a/00000000-0000-0000-0000-000061ba91a6"
-      (reference "U7") (unit 3) (value "LM358") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
-    )
-    (path "/00000000-0000-0000-0000-00005fffa45f/00000000-0000-0000-0000-000061d780de"
-      (reference "U8") (unit 1) (value "hm-10-module") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061c1a3cd/00000000-0000-0000-0000-000061c4746f"
-      (reference "U9") (unit 1) (value "L7805") (footprint "Package_TO_SOT_SMD:TO-263-3_TabPin2")
-    )
-    (path "/00000000-0000-0000-0000-000061c1a3cd/00000000-0000-0000-0000-000061d1db84"
-      (reference "U10") (unit 1) (value "LM358") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
-    )
-    (path "/00000000-0000-0000-0000-000061c1a3cd/00000000-0000-0000-0000-000061d29b82"
-      (reference "U10") (unit 2) (value "LM358") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
-    )
-    (path "/00000000-0000-0000-0000-000061c1a3cd/00000000-0000-0000-0000-000061d29bdf"
-      (reference "U10") (unit 3) (value "LM358") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
-    )
-    (path "/00000000-0000-0000-0000-000061c15501/00000000-0000-0000-0000-000061c156e7"
-      (reference "XA1") (unit 1) (value "Conn_Poncho2P_2x_20x2") (footprint "footprint:Conn_Poncho_SinBorde")
-    )
-    (path "/00000000-0000-0000-0000-000061c15501/00000000-0000-0000-0000-000061c156f1"
-      (reference "XA1") (unit 2) (value "Conn_Poncho2P_2x_20x2") (footprint "footprint:Conn_Poncho_SinBorde")
-    )
   )
 )
