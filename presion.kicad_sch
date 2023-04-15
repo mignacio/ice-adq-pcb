@@ -646,6 +646,16 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 152cd84e-bbed-4df5-a866-d1ab977b0966)
   )
+  (text "- Con un ADC de 10 bits, o 1024 cuentas. Cada cuenta representa una tensión\nen la entrada de 32mV.\nEntonces, si 120PSI son 2.905V en la entrada, su equivalente en cuentas sería\n907 cuentas. Realizando los mismos cálculos, 0PSI equivaldrá a 65 cuentas."
+    (at 38.1 219.71 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 16fde198-1c4e-48b6-bed5-fef1f4d61d03)
+  )
+  (text "- Con toda esta información, podemos resolver la función transferencia PSI/Cuentas ADC y\nel resultado es:\nCuentas = (421/60) PSI + 65 o PSI = (60/421) Cuentas - (3900/421)\nLa resolución del circuito entonces es 0.14PSI y el rango maximo es de 136.53 PSI\nDe esta forma queda resuelto el requisito REQ-ADQ-005, de adquirir la presión de aceite \ncon un rango de 0 a 100PSI y resolución menor a 1PSI.\n"
+    (at 38.1 233.68 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 5d521fad-9df1-4f47-9144-09096ab5eae0)
+  )
   (text "- La tensión de salida máxima de el A.O. LM358 es de V+ - 1.5v.Al estar\nalimentado con 5v su tensión de salida máxima será de 3.5V, esto\npermite usar el rango máximo de la entrada del ADC de la EDU-CIAA (3.3v)\nsin dañar la entrada."
     (at 38.1 181.61 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -655,13 +665,13 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 9f969b13-1795-4747-8326-93bdc304ed56)
   )
-  (text "- A 120 PSI el sensor tiene un resistencia de 120ohms.\nPara que la tension de salida sea cercana a 1.5V, elegimos una resistencia de 330ohms.\nLa tensión de salida será 1.4525V cuando la presión de aceite alcance los 120PSI.\nLa corriente que circule por el divisor resistivo formado por R9 y el sensor sera de 10.8ma,\nla potencia disipada sera de aproximadamente 0.054W. A presión atmosférica la resistencia \nes de 7ohms, la correinte sera de 14.8mA y la potencia disipada sera de 0.074W"
+  (text "- A 120 PSI el sensor tiene un resistencia de 135ohms.\nPara que la tension de salida sea cercana a 1.5V, elegimos una resistencia de 330ohms.\nLa tensión de salida será 1.4525V cuando la presión de aceite alcance los 120PSI.\nLa corriente que circule por el divisor resistivo formado por R9 y el sensor sera de 10.8ma,\nla potencia disipada sera de aproximadamente 0.054W. A presión atmosférica la resistencia \nes de 7ohms, la correinte sera de 14.8mA y la potencia disipada sera de 0.074W"
     (at 38.1 195.58 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid c35925bb-2347-4d4c-ae9d-1db228397637)
   )
-  (text "- Para que la tensión de PRES_OUT sea cercana a 3.3V se elige la ganancia de\nla etapa amplificadora de 2, entonces cuando la presion sea 120PSI y la resistencia\ndel sensor sean 135ohms, la tensión de salida de U7A sera de 1.4525V, entonces la\ntensión de PRES_OUT sera de 2.905."
-    (at 38.1 205.74 0)
+  (text "- Para que la tensión de PRES_OUT sea cercana a 3.3V se elige la ganancia de\nla etapa amplificadora de 2, entonces cuando la presion sea 120PSI y la resistencia\ndel sensor sean 135ohms, la tensión de salida de U7A sera de 1.4525V, entonces la\ntensión de PRES_OUT sera de 2.905.\nA 0 PSI, la resistencia del sensor es de 7Ohms, por lo que la salida de U7A será de\n0.104V y PRES_OUT sera 0.208V"
+    (at 38.1 209.55 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid f8704fea-b3fd-4be3-aaed-841a7cf8fd77)
   )
